@@ -59,6 +59,8 @@ public class ETCAxis
 
 	public string autoTag;
 
+	public GameObject player;
+
 	public bool enable;
 
 	public bool invertedAxis;
@@ -68,6 +70,8 @@ public class ETCAxis
 	public float deadValue;
 
 	public AxisValueMethod valueMethod;
+
+	public AnimationCurve curveValue;
 
 	public bool isEnertia;
 
@@ -111,6 +115,10 @@ public class ETCAxis
 	public AxisInfluenced axisInfluenced;
 
 	public ActionOn actionOn;
+
+	public CharacterController directCharacterController;
+
+	public Rigidbody directRigidBody;
 
 	public float gravity;
 

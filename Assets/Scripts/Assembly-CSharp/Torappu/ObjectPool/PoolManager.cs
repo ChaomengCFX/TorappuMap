@@ -18,6 +18,8 @@ namespace Torappu.ObjectPool
 
 			public string assetName;
 
+			public GameObject prototype;
+
 			public GameObjectPool.Options poolOptions;
 		}
 

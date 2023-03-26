@@ -10,6 +10,8 @@ namespace Torappu.Battle.UI
 		public struct ElementUIData
 		{
 			public Color elementColor;
+
+			public Sprite elementIcon;
 		}
 
 		[SerializeField]

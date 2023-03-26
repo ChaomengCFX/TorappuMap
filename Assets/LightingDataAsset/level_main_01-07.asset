@@ -7,13 +7,13 @@ LightingDataAsset:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: level_main_01-07
-  m_Scene: {fileID: 102900000, guid: d9575fec0058ee842b1c87ba7e8ac882, type: 3}
+  m_Scene: {fileID: 102900000, guid: e77951d19a7619a4f931531d9f052854, type: 3}
   m_Lightmaps:
   - serializedVersion: 2
-    m_Lightmap: {fileID: 2800000, guid: e8c02ddd06574d04b84e0d701c33360f, type: 3}
+    m_Lightmap: {fileID: 2800000, guid: 2750d9ffc173a5e4f8794618fce52977, type: 3}
     m_DirLightmap: {fileID: 0}
-    m_ShadowMask: {fileID: 2800000, guid: 4108d0eb9cd7d07459fbcd4f157dfb3e, type: 3}
-  m_LightProbes: {fileID: 25800000, guid: 1f188204035b5ac4886f347dfd67b6e7, type: 2}
+    m_ShadowMask: {fileID: 2800000, guid: 4397de367409feb43b38091647b5fee6, type: 3}
+  m_LightProbes: {fileID: 25800000, guid: 0dfc14996751b0d44beea43f07cb61ce, type: 2}
   m_LightmapsMode: 0
   m_BakedAmbientProbeInLinear:
     sh[ 0]: 0

@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: sprites_default
-  m_Shader: {fileID: 4800000, guid: 61b7fdad111eb4a4f970e4b110878382, type: 2}
+  m_Shader: {fileID: 4800000, guid: 057fa998eb3854247b31daf998f93adb, type: 2}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0

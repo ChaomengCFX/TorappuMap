@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: mask_09_ab
-  m_Shader: {fileID: 4800000, guid: 7f3eb4b8760fef141b45822360fd9f97, type: 2}
+  m_Shader: {fileID: 4800000, guid: 333a6ad98ae7048489e2e3c2cfc09ff2, type: 2}
   m_ShaderKeywords:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,7 +19,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: e317deb768d2e6f4c8e775ebfe14bae0, type: 3}
+        m_Texture: {fileID: 2800000, guid: e88eccb2c4b599946ad04d9f9cdaf219, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:

@@ -9,18 +9,18 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1151406991084922}
+  m_RootGameObject: {fileID: 1620436782973338}
   m_IsPrefabParent: 1
---- !u!1 &1151406991084922
+--- !u!1 &1620436782973338
 GameObject:
   serializedVersion: 5
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - component: {fileID: 224024175697536301}
-  - component: {fileID: 222735306833997017}
-  - component: {fileID: 114782665900698874}
+  - component: {fileID: 224668415960049080}
+  - component: {fileID: 222820976676701668}
+  - component: {fileID: 114580669969279935}
   m_Layer: 5
   m_Name: illust_missing
   m_TagString: Untagged
@@ -28,12 +28,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &224024175697536301
+--- !u!224 &224668415960049080
 RectTransform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1151406991084922}
+  m_GameObject: {fileID: 1620436782973338}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -51, y: -68, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -46,18 +46,18 @@ RectTransform:
   m_AnchoredPosition: {x: -51, y: -68}
   m_SizeDelta: {x: 1024, y: 1024}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &222735306833997017
+--- !u!222 &222820976676701668
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1151406991084922}
---- !u!114 &114782665900698874
+  m_GameObject: {fileID: 1620436782973338}
+--- !u!114 &114580669969279935
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1151406991084922}
+  m_GameObject: {fileID: 1620436782973338}
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}

@@ -12,6 +12,8 @@ namespace Torappu.Battle.UI
 		{
 			public ProfessionCategory profession;
 
+			public Sprite sprite;
+
 			public Color color;
 		}
 

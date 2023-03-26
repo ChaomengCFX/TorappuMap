@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: ui_battle_ally_overload_bullet_bar
-  m_Shader: {fileID: 4800000, guid: 6f3c0e9374aebe04abaf656b73765356, type: 2}
+  m_Shader: {fileID: 4800000, guid: 4ccdef2d6be21cf41a43b9cc779e0d2f, type: 2}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA UNITY_UI_ALPHACLIP _HGCOLORMODE_DEFAULT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0

@@ -1,4 +1,5 @@
 using System;
+using UnityEngine;
 
 namespace Torappu.UI.Atlas
 {
@@ -6,6 +7,10 @@ namespace Torappu.UI.Atlas
 	public class AtlasInfo
 	{
 		public int index;
+
+		public Texture2D texture;
+
+		public Texture2D alpha;
 
 		public int size;
 	}

@@ -17,20 +17,20 @@ MonoBehaviour:
     area: {fileID: 0}
     search: {fileID: 0}
   shaders:
-    bloom: {fileID: 4800000, guid: 8d006326ffa17064193d47b16015be66, type: 2}
-    copy: {fileID: 4800000, guid: bf852e6d25b377e4eb9acd43dcbb3cfc, type: 2}
-    copyStd: {fileID: 4800000, guid: 5a6390208e224c6478efc098891957b4, type: 2}
+    bloom: {fileID: 4800000, guid: 8910134ef5fe7494bac3b9cb927774b0, type: 2}
+    copy: {fileID: 4800000, guid: cd7d8035b9b363b47994ea2e8f50e770, type: 2}
+    copyStd: {fileID: 4800000, guid: 919fe6240818c004ca6612b0d9024f36, type: 2}
     copyStdFromTexArray: {fileID: 0}
     copyStdFromDoubleWide: {fileID: 0}
     discardAlpha: {fileID: 0}
     depthOfField: {fileID: 0}
-    finalPass: {fileID: 4800000, guid: 6a2b2cb8ca9548749a2d33677c53b13c, type: 2}
+    finalPass: {fileID: 4800000, guid: 5da49c140b548454ba65b8f412143568, type: 2}
     grainBaker: {fileID: 0}
     motionBlur: {fileID: 0}
     temporalAntialiasing: {fileID: 0}
     subpixelMorphologicalAntialiasing: {fileID: 0}
     texture2dLerp: {fileID: 0}
-    uber: {fileID: 4800000, guid: 56932620d2a51eb46b4fd1cc44a39cb2, type: 2}
+    uber: {fileID: 4800000, guid: e64452dd911d7c64398df7879bda69e8, type: 2}
     lut2DBaker: {fileID: 0}
     lightMeter: {fileID: 0}
     gammaHistogram: {fileID: 0}
@@ -41,7 +41,7 @@ MonoBehaviour:
     scalableAO: {fileID: 0}
     multiScaleAO: {fileID: 0}
     screenSpaceReflections: {fileID: 0}
-    mobileBlur: {fileID: 4800000, guid: eecec02a378779345a0b98aa7dc4fe0f, type: 2}
+    mobileBlur: {fileID: 4800000, guid: c7bf19f77c7424844b9c980c6df632ff, type: 2}
   computeShaders:
     autoExposure: {fileID: 0}
     exposureHistogram: {fileID: 0}

@@ -136,13 +136,19 @@ public class ETCJoystick : ETCBase
 
 	public ETCAxis axisY;
 
+	public RectTransform thumb;
+
 	public JoystickArea joystickArea;
+
+	public RectTransform userArea;
 
 	public bool isTurnAndMove;
 
 	public float tmSpeed;
 
 	public float tmAdditionnalRotation;
+
+	public AnimationCurve tmMoveCurve;
 
 	public bool tmLockInJump;
 

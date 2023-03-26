@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: range_material
-  m_Shader: {fileID: 4800000, guid: d43f64b33f0b2254094f8f2eb2a0244a, type: 2}
+  m_Shader: {fileID: 4800000, guid: b2a73914bc51b934f8f73ed8e43bc4a5, type: 2}
   m_ShaderKeywords:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,7 +19,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 5156ce4f47ceedb4e84cb867fd409586, type: 3}
+        m_Texture: {fileID: 2800000, guid: 74d41d51d9b35ab4c8c89d336e545bc1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:

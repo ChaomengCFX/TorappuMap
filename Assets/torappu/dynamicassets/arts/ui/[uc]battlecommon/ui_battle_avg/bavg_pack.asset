@@ -167,8 +167,8 @@ MonoBehaviour:
     rotate: 0
   _atlases:
   - index: 0
-    texture: {fileID: 2800000, guid: 58009ca89e8ff834383eac956fa32a77, type: 3}
-    alpha: {fileID: 2800000, guid: 20081a991d0f5744183637598cb3f440, type: 3}
+    texture: {fileID: 2800000, guid: 28fcb9f3e9f1e0f4aa132b08635c464e, type: 3}
+    alpha: {fileID: 2800000, guid: 142b35bbe1d977e4a9e4646da5c022c8, type: 3}
     size: 2048
   _workDir:
   _alphaSplit: 1

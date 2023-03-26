@@ -11,6 +11,8 @@ namespace Torappu.Battle.UI
 		protected struct ProfessionSpritePair
 		{
 			public ProfessionCategory profession;
+
+			public Sprite sprite;
 		}
 
 		[SerializeField]

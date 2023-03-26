@@ -25,6 +25,8 @@ namespace Torappu.ObjectPool
 			public bool allowPoolAutoReuse;
 
 			public NotificationType notificationType;
+
+			public Transform container;
 		}
 	}
 }

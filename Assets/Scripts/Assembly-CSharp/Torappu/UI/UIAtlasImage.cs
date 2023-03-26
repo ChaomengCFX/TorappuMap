@@ -16,6 +16,10 @@ namespace Torappu.UI
 		[Serializable]
 		private class AtlasSprite
 		{
+			public Texture2D mainTex;
+
+			public Texture2D alphaTex;
+
 			public AtlasCoord rect;
 
 			public int atlasSize;

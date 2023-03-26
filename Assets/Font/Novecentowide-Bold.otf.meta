@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 7334e983cd08b4a46bd9c04b4d831921
-timeCreated: 1679842610
+guid: 0f84eb08b30c9ab478882b650ea9d2ec
+timeCreated: 1679848994
 licenseType: Free
 TrueTypeFontImporter:
   serializedVersion: 4
@@ -15,7 +15,7 @@ TrueTypeFontImporter:
   fontNames:
   - Novecento wide
   fallbackFontReferences:
-  - {fileID: 12800000, guid: 717fd183050047442b1a1ed329f9eb43, type: 3}
+  - {fileID: 12800000, guid: 30e6d367d6b60204ba52f3ffcac92ae1, type: 3}
   customCharacters:
   fontRenderingMode: 0
   output:

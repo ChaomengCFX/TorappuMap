@@ -62,11 +62,15 @@ public abstract class ETCBase : MonoBehaviour
 
 	public string autoCamTag;
 
+	public Transform cameraTransform;
+
 	public CameraTargetMode cameraTargetMode;
 
 	public bool enableWallDetection;
 
 	public LayerMask wallLayer;
+
+	public Transform cameraLookAt;
 
 	public Vector3 followOffset;
 

@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: ui_auto_battle_gradient_bottom
-  m_Shader: {fileID: 4800000, guid: e393412c32048a64db4eb04596df33fa, type: 2}
+  m_Shader: {fileID: 4800000, guid: 548fa33e623b1f14fac1df1a92842d80, type: 2}
   m_ShaderKeywords:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0

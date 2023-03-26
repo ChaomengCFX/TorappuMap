@@ -10,6 +10,17 @@ namespace Torappu.Battle.UI
 		[Serializable]
 		public class BasicStatus
 		{
+			public GameObject container;
+
+			public UILifePoint lifePoint;
+
+			public Text monsterInfoText;
+
+			public Text killCntText;
+
+			public Transform practiceHint;
+
+			public UILifeLostGroup lifeLostContainer;
 		}
 
 		[SerializeField]

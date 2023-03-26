@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: trail_11_ab
-  m_Shader: {fileID: 4800000, guid: d69c5acdf109a644095291ec8cc6cfe2, type: 2}
+  m_Shader: {fileID: 4800000, guid: 175a571b8e186734d94147f4b4818c56, type: 2}
   m_ShaderKeywords:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,7 +19,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: cee4dd997e0778746a86cd3b5f6df30e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 51c6d1b9ec97c364694d27caa55c76d3, type: 3}
         m_Scale: {x: -1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
