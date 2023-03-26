@@ -61,7 +61,9 @@ namespace Torappu.Battle
 			public MapEffectData[] mapEffects;
 		}
 
-		[SerializeField]
+		public TileGraphic[] Graphics { set { _graphics = value; } }
+
+        [SerializeField]
 		private MapSettings _mapSettings;
 
 		[SerializeField]

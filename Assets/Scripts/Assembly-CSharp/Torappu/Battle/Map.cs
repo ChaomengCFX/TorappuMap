@@ -9,19 +9,23 @@ namespace Torappu.Battle
 		public class Tiles2D
 		{
 			[SerializeField]
-			[HideInInspector]
+			//[HideInInspector]
 			public Tile[] _tiles;
 
 			[SerializeField]
-			[HideInInspector]
-			private int _width;
+            //[HideInInspector]
+            public int _width;
 
-			[HideInInspector]
-			[SerializeField]
-			private int _height;
+            //[HideInInspector]
+            [SerializeField]
+            public int _height;
 		}
 
-		[SerializeField]
+		public Tiles2D Tile { set { _tiles = value; } }
+
+		public MapGraphic Graphic { get { return _graphic; } }
+
+        [SerializeField]
 		private Transform _anchorTransform;
 
 		[SerializeField]
