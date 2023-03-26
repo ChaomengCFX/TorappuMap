@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: 16bf530fb74293e4ab55ab64e0cf40f0
+timeCreated: 1679842610
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  name:
+  externalObjects: {}
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Novecento wide
+  fontNames:
+  - Novecento wide
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 717fd183050047442b1a1ed329f9eb43, type: 3}
+  - {fileID: 12800000, guid: 3c56ecadbcc11b048853a069818446de, type: 3}
+  - {fileID: 12800000, guid: 7334e983cd08b4a46bd9c04b4d831921, type: 3}
+  customCharacters:
+  fontRenderingMode: 0
+  output:
+    hasEmptyFontData: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!300 &1
+RuntimeInitializeOnLoadManager:
+  m_ObjectHideFlags: 0
+  m_AssemblyNames:
+  - Sirenix.Serialization
+  - Sirenix.Utilities
+  - Sirenix.Utilities.Editor
+  - UnityEditor.Advertisements
+  m_NamespaceNames:
+  - Sirenix.Serialization
+  - Sirenix.Serialization.Utilities
+  - Sirenix.Utilities
+  - UnityEditor.Advertisements
+  m_ClassInfos:
+  - m_AssemblyNameIndex: 0
+    m_NamespaceIndex: 0
+    m_ClassName: UnitySerializationInitializer
+    m_NumOfMethods: 1
+    m_MethodIndex: 0
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 0
+    m_NamespaceIndex: 1
+    m_ClassName: UnityVersion
+    m_NumOfMethods: 1
+    m_MethodIndex: 1
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 1
+    m_NamespaceIndex: 2
+    m_ClassName: UnityVersion
+    m_NumOfMethods: 1
+    m_MethodIndex: 2
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 2
+    m_NamespaceIndex: 2
+    m_ClassName: AssemblyUtilities
+    m_NumOfMethods: 1
+    m_MethodIndex: 3
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 3
+    m_NamespaceIndex: 3
+    m_ClassName: UnityAdsEditor
+    m_NumOfMethods: 1
+    m_MethodIndex: 4
+    m_IsUnityClass: 0
+  m_ClassMethodInfos:
+  - m_ClassIndex: 0
+    m_MethodName: InitializeRuntime
+    m_OrderNumber: 0
+  - m_ClassIndex: 1
+    m_MethodName: EnsureLoaded
+    m_OrderNumber: 0
+  - m_ClassIndex: 2
+    m_MethodName: EnsureLoaded
+    m_OrderNumber: 0
+  - m_ClassIndex: 3
+    m_MethodName: DoNothing
+    m_OrderNumber: 0
+  - m_ClassIndex: 4
+    m_MethodName: EditorOnLoad
+    m_OrderNumber: 0
+  m_BeforeUnityMethodExecutionOrders:
+  - 4
+  m_AfterUnityMethodExecutionOrders: []
+  m_BeforeMethodExecutionOrders:
+  - 0
+  - 1
+  - 2
+  - 3
+  m_AfterMethodExecutionOrders: []
+  m_FullClassNames: []

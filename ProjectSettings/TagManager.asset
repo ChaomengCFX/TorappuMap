@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - soldier
+  - tutorial
+  - UITransitionActions
+  - BuildingRoomObject
+  - StaticBatchExclusive
+  - BattleUICard
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - TILE
+  - ENEMY
+  - ALLY
+  - MAP
+  - RANGE
+  - DEATH_AREA
+  - PROJECTILE
+  - EFFECT
+  - UI_AVG
+  - UI_GACHA
+  - UI_CULL_MASK
+  - ENEMY_COLLIDER
+  - BUILD_BLUEPRINT
+  - BUILD_VAULT
+  - DIY
+  - DIY_INDICATOR
+  - DIY_MARK
+  - GACHA_ANIME
+  - SDK
+  - UI_RT_PS
+  - NEUTRAL
+  - POSTPROCESS
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 3967734151
+    locked: 0
+  - name: Map_Tile
+    uniqueID: 2295319375
+    locked: 0
+  - name: Map_Widget
+    uniqueID: 1002592435
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Map_Foreground
+    uniqueID: 1103736377
+    locked: 0
+  - name: Projectile
+    uniqueID: 541649297
+    locked: 0
+  - name: Effect
+    uniqueID: 885674531
+    locked: 0
+  - name: Topmost
+    uniqueID: 3423319821
+    locked: 0
+  - name: UILower
+    uniqueID: 2405400507
+    locked: 0
+  - name: UI
+    uniqueID: 3263218971
+    locked: 0
+  - name: UIUpper
+    uniqueID: 1375163493
+    locked: 0
+  - name: Screen
+    uniqueID: 2906017117
+    locked: 0
