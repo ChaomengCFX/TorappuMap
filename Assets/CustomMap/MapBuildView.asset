@@ -17,4 +17,4 @@ MonoBehaviour:
   width: 11
   height: 8
   tiles: []
-  specialTileType: 0
+  specialTileType: 1

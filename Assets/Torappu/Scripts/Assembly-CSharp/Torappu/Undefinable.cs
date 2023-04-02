@@ -1,3 +1,4 @@
+using Newtonsoft.Json;
 using System;
 
 namespace Torappu
@@ -7,8 +8,10 @@ namespace Torappu
 	{
 		public static readonly Undefinable<T> DEFAULT;
 
+		[JsonProperty]
 		private bool m_defined;
 
-		private T m_value;
+        [JsonProperty]
+        private T m_value;
 	}
 }

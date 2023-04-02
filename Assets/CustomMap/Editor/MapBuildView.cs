@@ -29,6 +29,8 @@ namespace CustomMap
             _InitMap();
             tiles = new List<CustomTileData>();
 
+            tileSelected = null;
+
             m_forbiddenTex = AssetDatabase.LoadAssetAtPath<Texture2D>("Assets/CustomMap/Sprite/forbidden.png");
             m_wallTex = AssetDatabase.LoadAssetAtPath<Texture2D>("Assets/CustomMap/Sprite/wall.png");
             m_startTex = AssetDatabase.LoadAssetAtPath<Texture2D>("Assets/CustomMap/Sprite/start.png");
@@ -176,7 +178,7 @@ namespace CustomMap
                 for (int col = 0; col < width; col++)
                 {
                     TileInfo info = tileMap[col, height - row - 1];
-                    if (info == null) continue;
+                    if (info == null || info.tile == null) continue;
                     CustomTile tilePrefab = info.tile;
                     MeshTileGraphic tileGraphic = Instantiate(tilePrefab.mesh, meshRoot);
                     tileGraphic.transform.localPosition += new Vector3(col, row, 0f);
