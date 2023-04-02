@@ -11,5 +11,7 @@ namespace CustomMap
         public Tile tile;
 
         public MeshTileGraphic mesh;
+
+        public string description;
     }
 }
