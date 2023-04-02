@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb6ce278320224a2a9a752ca719812e1, type: 3}
+  m_Name: PostProcessResources
+  m_EditorClassIdentifier:
+  blueNoise64: []
+  blueNoise256: []
+  smaaLuts:
+    area: {fileID: 0}
+    search: {fileID: 0}
+  shaders:
+    bloom: {fileID: 4800000, guid: 9fa9d72f7315bfa408561d5b7c2460d8, type: 2}
+    copy: {fileID: 4800000, guid: 4508443309e20ae469499b4ad392ac83, type: 2}
+    copyStd: {fileID: 4800000, guid: ef0fc2cc2f302cb49ac44b965c9df577, type: 2}
+    copyStdFromTexArray: {fileID: 0}
+    copyStdFromDoubleWide: {fileID: 0}
+    discardAlpha: {fileID: 0}
+    depthOfField: {fileID: 0}
+    finalPass: {fileID: 4800000, guid: efaed1303ce5d044b9667bfb247433a2, type: 2}
+    grainBaker: {fileID: 0}
+    motionBlur: {fileID: 0}
+    temporalAntialiasing: {fileID: 0}
+    subpixelMorphologicalAntialiasing: {fileID: 0}
+    texture2dLerp: {fileID: 0}
+    uber: {fileID: 4800000, guid: 48faf520cf646bc4bbdafc89d6394fb8, type: 2}
+    lut2DBaker: {fileID: 0}
+    lightMeter: {fileID: 0}
+    gammaHistogram: {fileID: 0}
+    waveform: {fileID: 0}
+    vectorscope: {fileID: 0}
+    debugOverlays: {fileID: 0}
+    deferredFog: {fileID: 0}
+    scalableAO: {fileID: 0}
+    multiScaleAO: {fileID: 0}
+    screenSpaceReflections: {fileID: 0}
+    mobileBlur: {fileID: 4800000, guid: 86ec96a7b49b8394da0e7c1c8185b848, type: 2}
+  computeShaders:
+    autoExposure: {fileID: 0}
+    exposureHistogram: {fileID: 0}
+    lut3DBaker: {fileID: 0}
+    texture3dLerp: {fileID: 0}
+    gammaHistogram: {fileID: 0}
+    waveform: {fileID: 0}
+    vectorscope: {fileID: 0}
+    multiScaleAODownsample1: {fileID: 0}
+    multiScaleAODownsample2: {fileID: 0}
+    multiScaleAORender: {fileID: 0}
+    multiScaleAOUpsample: {fileID: 0}
+    gaussianDownsample: {fileID: 0}
