@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 namespace Torappu.UI
 {
+	[ExecuteInEditMode]
 	public class UIAtlasImage : MaskableGraphic
 	{
 		public enum MeshType

@@ -1,5 +1,8 @@
+using System;
+
 namespace Torappu
 {
+	[Flags]
 	public enum ProfessionCategory
 	{
 		NONE = 0,

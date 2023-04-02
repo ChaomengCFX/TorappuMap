@@ -2,6 +2,7 @@ using UnityEngine;
 
 namespace Torappu.Battle
 {
+	[SelectionBase]
 	public class TileGraphic : MonoBehaviour
 	{
 		[SerializeField]

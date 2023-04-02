@@ -4,6 +4,8 @@ using UnityEngine.EventSystems;
 
 namespace SoftMasking
 {
+	[ExecuteInEditMode]
+	[DisallowMultipleComponent]
 	public class SoftMask : UIBehaviour
 	{
 		[Serializable]

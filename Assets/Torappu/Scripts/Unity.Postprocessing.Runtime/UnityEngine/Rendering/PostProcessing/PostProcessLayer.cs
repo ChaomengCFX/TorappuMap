@@ -4,6 +4,9 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Rendering.PostProcessing
 {
+	[ExecuteInEditMode]
+	[DisallowMultipleComponent]
+	[ImageEffectAllowedInSceneView]
 	public class PostProcessLayer : MonoBehaviour
 	{
 		public enum Antialiasing

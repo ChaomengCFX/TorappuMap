@@ -2,6 +2,7 @@ using UnityEngine;
 
 namespace Torappu.UI
 {
+	[ExecuteInEditMode]
 	public class DynFontLoader : MonoBehaviour
 	{
 		[SerializeField]

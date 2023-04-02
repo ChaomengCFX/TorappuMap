@@ -14,5 +14,17 @@ namespace Torappu
 
 			public MotionMask blockMask;
 		}
+
+		public short[,] map;
+
+		public TileData[] tiles;
+
+		public Edge[] blockEdges;
+
+		public string[] tags;
+
+		public MapEffectData[] effects;
+
+		public string[] layerRects;
 	}
 }

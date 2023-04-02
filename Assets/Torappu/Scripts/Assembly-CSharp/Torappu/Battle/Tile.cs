@@ -5,7 +5,7 @@ namespace Torappu.Battle
 {
 	public class Tile : VisualObject
 	{
-        [SerializeField]
+		[SerializeField]
         public string _tileKey;
 
 		[SerializeField]

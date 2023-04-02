@@ -13,12 +13,12 @@ namespace Torappu.Battle
 			public Tile[] _tiles;
 
 			[SerializeField]
-			//[HideInInspector]
+            //[HideInInspector]
             public int _width;
 
 			//[HideInInspector]
 			[SerializeField]
-            public int _height;
+			public int _height;
 		}
 
 		[SerializeField]
