@@ -16,5 +16,34 @@ MonoBehaviour:
   map: {fileID: 0}
   width: 11
   height: 8
-  tiles: []
-  specialTileType: 1
+  tiles:
+  - tile: {fileID: 114890289048397620, guid: 3231c46bc669c4d45bbabe8cc3880039, type: 2}
+    description: "tile_forbidden\uFF08\u6A21\u677Fa\uFF09[\u5207\u5C14\u8BFA\u4F2F\u683C]"
+    color: {r: 0.27205884, g: 0, b: 0, a: 1}
+  - tile: {fileID: 114965573417566184, guid: b5cfd8d8928fe094b82dab98f615d9dd, type: 2}
+    description: "tile_road\uFF08\u9A6C\u8DEF \u6A21\u677Fa\uFF09[\u5207\u5C14\u8BFA\u4F2F\u683C]"
+    color: {r: 0.46274507, g: 1, b: 0.9573496, a: 1}
+  - tile: {fileID: 114055063489947324, guid: abc8b767aa1b785469bd0c66c6bc05d9, type: 2}
+    description: "tile_road\uFF08\u7834\u635F\u5730\u9762 \u6A21\u677Fa\uFF09[\u5207\u5C14\u8BFA\u4F2F\u683C]"
+    color: {r: 0.46274507, g: 1, b: 0.55718726, a: 1}
+  - tile: {fileID: 114459419801412124, guid: b37bdc025ccaa5d4ebe7d4e8e7cb5077, type: 2}
+    description: "tile_road\uFF08\u7834\u635F\u5730\u9762 \u6A21\u677Fa \u6709\u6E90\u77F3\u6E17\u51FA\uFF09[\u5207\u5C14\u8BFA\u4F2F\u683C]"
+    color: {r: 1, g: 0.8295605, b: 0.46274507, a: 1}
+  - tile: {fileID: 114681213002489046, guid: b1bd626d0b009f94687a012bda9a27dc, type: 2}
+    description: "tile_wall\uFF08\u9AD8\u53F0 \u6A21\u677Fa\uFF09[\u5207\u5C14\u8BFA\u4F2F\u683C]"
+    color: {r: 0.5479649, g: 0.46274507, b: 1, a: 1}
+  specialTileType: 3
+  tileDirection: 4
+  mapDisplayType: 0
+  _lowLandColor: {r: 0.2, g: 0.9, b: 0.8, a: 1}
+  _highLandColor: {r: 1, g: 0.8, b: 0.3, a: 1}
+  _buildableNoneColor: {r: 0.4, g: 0, b: 0, a: 1}
+  _buildableMeleeColor: {r: 0.4, g: 1, b: 1, a: 1}
+  _buildableRangedColor: {r: 1, g: 0.8, b: 0.2, a: 1}
+  _buildableAllColor: {r: 0.3, g: 1, b: 0.6, a: 1}
+  selectedbuildableType: 3
+  _passableNoneColor: {r: 0.41911763, g: 0, b: 0, a: 1}
+  _passableWalkColor: {r: 0.4, g: 1, b: 1, a: 1}
+  _passableFlyColor: {r: 1, g: 0.8, b: 0.2, a: 1}
+  _passableAllColor: {r: 0.29803923, g: 1, b: 0.6, a: 1}
+  selectedMotionMask: 0

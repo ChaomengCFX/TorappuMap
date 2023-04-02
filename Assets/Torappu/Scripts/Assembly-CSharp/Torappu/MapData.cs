@@ -1,3 +1,4 @@
+using UnityEngine;
 using System;
 
 namespace Torappu
@@ -15,6 +16,7 @@ namespace Torappu
 			public MotionMask blockMask;
 		}
 
+		[HideInInspector]
 		public short[,] map;
 
 		public TileData[] tiles;

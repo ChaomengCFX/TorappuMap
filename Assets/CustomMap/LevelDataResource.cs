@@ -4,7 +4,7 @@ using Sirenix.OdinInspector;
 namespace CustomMap
 {
     [CreateAssetMenu(fileName = "LevelData", menuName = "CustomMap/LevelData")]
-    public class LevelDataResource : SerializedScriptableObject
+    public class LevelDataResource : ScriptableObject
     {
         [ShowInInspector]
         public LevelData LevelData

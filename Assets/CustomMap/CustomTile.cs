@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Torappu.Battle;
 using Torappu.Battle.Tiles;
+using Torappu;
 
 namespace CustomMap
 {

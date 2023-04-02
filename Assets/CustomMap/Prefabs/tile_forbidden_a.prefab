@@ -190,7 +190,7 @@ MonoBehaviour:
   _data:
     tileKey: tile_forbidden
     heightType: 1
-    buildableType: 2
+    buildableType: 0
     passableMask: 2
     playerSideMask: 0
     blackboard: []
