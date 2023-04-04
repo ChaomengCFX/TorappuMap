@@ -10,11 +10,12 @@ using Torappu;
 using Torappu.Battle;
 using Torappu.Battle.Tiles;
 using Sirenix.Serialization;
+using System.Xml.Linq;
 
 namespace CustomMap
 {
     [CreateAssetMenu(fileName = "MapBuildView", menuName = "CustomMap/MapBuildView")]
-    public class MapBuildView : ScriptableObject, IResetable
+    public class MapBuildView : SerializedScriptableObject, IResetable
     {
         #region 设置
         public void Reset()
@@ -68,6 +69,13 @@ namespace CustomMap
         private void _InitMap()
         {
             tileMap = new TileInfo[width, height];
+            for (int i = 0; i < height; i++)
+            {
+                for (int j = 0; j < width; j++)
+                {
+                    tileMap[j, i] = new TileInfo();
+                }
+            }
         }
         #endregion
 
@@ -80,7 +88,7 @@ namespace CustomMap
         {
             if (info.ChangeType == CollectionChangeType.Add)
             {
-                tiles[tiles.Count - 1].Init(tiles.Count - 1, SelectTile);
+                tiles[tiles.Count - 1].Init(tiles.Count - 1, this);
             }
         }
 
@@ -151,7 +159,7 @@ namespace CustomMap
         [SerializeField, LabelText("设置通行属性为"), EnumToggleButtons, ShowIf("@mapDisplayType==MapDisplayType.PassableMap")]
         private MotionMask selectedMotionMask = MotionMask.ALL;
 
-        [ShowInInspector, TableMatrix(SquareCells = true, DrawElementMethod = "DrawMapElement")]
+        [SerializeField, TableMatrix(SquareCells = true, DrawElementMethod = "DrawMapElement")]
         private TileInfo[,] tileMap;
 
         /// <summary>
@@ -221,7 +229,6 @@ namespace CustomMap
                 color.a = 0.8f;
             }
             EditorGUI.DrawRect(rect.Padding(1), color);
-
             return value;
         }
         
@@ -411,7 +418,7 @@ namespace CustomMap
             private Color m_guiColor = Color.white;
 
             private int m_index;
-            private Action<int> m_onSelect;
+            private MapBuildView m_view;
 
             [GUIColor("$m_guiColor"), TableColumnWidth(100), OnValueChanged("OnTileChanged")]
             public CustomTile tile;
@@ -427,10 +434,10 @@ namespace CustomMap
                 description = tile.description;
             }
 
-            public void Init(int index, Action<int> onSelect)
+            public void Init(int index, MapBuildView view)
             {
                 m_index = index;
-                m_onSelect = onSelect;
+                m_view = view;
             }
 
             public void OnDeSelect()
@@ -442,16 +449,28 @@ namespace CustomMap
             private void Select()
             {
                 m_guiColor = Color.green;
-                m_onSelect(m_index);
+                m_view.SelectTile(m_index);
             }
         }
 
         [Serializable]
         public class TileInfo
         {
+            public TileInfo() : this(null, SpecialTileType.None) { }
+
             public TileInfo(CustomTile tile, SpecialTileType specialTileType)
             {
                 this.tile = tile;
+                if (tile == null)
+                {
+                    data = new TileData
+                    {
+                        tileKey = "tile_empty",
+                        buildableType = BuildableType.NONE,
+                        passableMask = MotionMask.NONE
+                    };
+                    return;
+                }
                 this.specialTileType = specialTileType;
                 TileData _data = tile?.tile?._data;
                 if (_data != null)
@@ -463,8 +482,8 @@ namespace CustomMap
                         buildableType = _data.buildableType,
                         passableMask = _data.passableMask,
                         playerSideMask = _data.playerSideMask,
-                        blackboard = _data.blackboard,
-                        effects = _data.effects
+                        blackboard = _data.blackboard.Count > 0 ? _data.blackboard : null,
+                        effects = _data.effects.Length > 0 ? _data.effects : null
                     };
                 }
             }
