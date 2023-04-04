@@ -9,8 +9,8 @@ using Sirenix.Utilities;
 using Torappu;
 using Torappu.Battle;
 using Torappu.Battle.Tiles;
-using Sirenix.Serialization;
-using System.Xml.Linq;
+using Random = UnityEngine.Random;
+using FullInspector;
 
 namespace CustomMap
 {
@@ -99,13 +99,13 @@ namespace CustomMap
         [SerializeField, LabelText("Tile方向"), EnumToggleButtons]
         private TileInfo.Direction tileDirection = TileInfo.Direction.Random;
 
-        public void SelectTile(int index)
+        private void SelectTile(CustomTileData data)
         {
-            tileSelected = tiles[index].tile;
-            for (int i = 0; i < tiles.Count; i++)
+            tileSelected = data.tile;
+            foreach (CustomTileData tile in tiles)
             {
-                if (i == index) continue;
-                tiles[i].OnDeSelect();
+                if (tile != data)
+                    tile.OnDeSelect();
             }
         }
         #endregion
@@ -181,18 +181,9 @@ namespace CustomMap
             throw new NotImplementedException();
         }
 
-        /// <summary>
-        /// 绘制Tile类型图
-        /// </summary>
-        private TileInfo DrawTileMapElement(Rect rect, TileInfo value)
+        private void DrawSpecialTileBG(Rect rect, TileInfo value)
         {
-            if (Event.current.type == EventType.MouseDown && rect.Contains(Event.current.mousePosition))
-            {
-                value = new TileInfo(tileSelected, specialTileType);
-                GUI.changed = true;
-                Event.current.Use();
-            }
-            if (value != null && !value.IsNull)
+            if (!value.IsNull)
             {
                 switch (value.specialTileType)
                 {
@@ -218,6 +209,20 @@ namespace CustomMap
                         break;
                 }
             }
+        }
+
+        /// <summary>
+        /// 绘制Tile类型图
+        /// </summary>
+        private TileInfo DrawTileMapElement(Rect rect, TileInfo value)
+        {
+            if (Event.current.type == EventType.MouseDown && rect.Contains(Event.current.mousePosition))
+            {
+                value = new TileInfo(tileSelected, specialTileType, tileDirection);
+                GUI.changed = true;
+                Event.current.Use();
+            }
+            DrawSpecialTileBG(rect, value);
             Color color;
             if (value == null || value.tile == null)
             {
@@ -237,12 +242,13 @@ namespace CustomMap
         /// </summary>
         private TileInfo DrawHeightMapElement(Rect rect, TileInfo value)
         {
-            if (Event.current.type == EventType.MouseDown && rect.Contains(Event.current.mousePosition) && value != null && !value.IsNull)
+            if (Event.current.type == EventType.MouseDown && rect.Contains(Event.current.mousePosition) && !value.IsNull)
             {
                 value.OnTriggleHeight();
                 GUI.changed = true;
                 Event.current.Use();
             }
+            DrawSpecialTileBG(rect, value);
             Color color;
             if (value == null || value.IsNull)
             {
@@ -251,10 +257,12 @@ namespace CustomMap
             else if (value.data.heightType == TileData.HeightType.LOWLAND)
             {
                 color = _lowLandColor;
+                color.a = 0.8f;
             }
             else
             {
                 color = _highLandColor;
+                color.a = 0.8f;
             }
             EditorGUI.DrawRect(rect.Padding(1), color);
 
@@ -266,12 +274,13 @@ namespace CustomMap
         /// </summary>
         private TileInfo DrawBuildableMapElement(Rect rect, TileInfo value)
         {
-            if (Event.current.type == EventType.MouseDown && rect.Contains(Event.current.mousePosition) && value != null && !value.IsNull)
+            if (Event.current.type == EventType.MouseDown && rect.Contains(Event.current.mousePosition) && !value.IsNull)
             {
                 value.data.buildableType = selectedbuildableType;
                 GUI.changed = true;
                 Event.current.Use();
             }
+            DrawSpecialTileBG(rect, value);
             Color color;
             if (value == null || value.IsNull)
             {
@@ -296,6 +305,7 @@ namespace CustomMap
                     default:
                         throw new NotImplementedException();
                 }
+                color.a = 0.8f;
             }
             EditorGUI.DrawRect(rect.Padding(1), color);
 
@@ -307,12 +317,13 @@ namespace CustomMap
         /// </summary>
         private TileInfo DrawPassableMapElement(Rect rect, TileInfo value)
         {
-            if (Event.current.type == EventType.MouseDown && rect.Contains(Event.current.mousePosition) && value != null && !value.IsNull)
+            if (Event.current.type == EventType.MouseDown && rect.Contains(Event.current.mousePosition) && !value.IsNull)
             {
                 value.data.passableMask = selectedMotionMask;
                 GUI.changed = true;
                 Event.current.Use();
             }
+            DrawSpecialTileBG(rect, value);
             Color color;
             if (value == null || value.IsNull)
             {
@@ -337,6 +348,7 @@ namespace CustomMap
                     default:
                         throw new NotImplementedException();
                 }
+                color.a = 0.8f;
             }
             EditorGUI.DrawRect(rect.Padding(1), color);
 
@@ -375,16 +387,30 @@ namespace CustomMap
                     TileInfo info = tileMap[col, height - row - 1];
                     if (info == null || info.tile == null) continue;
                     CustomTile tilePrefab = info.tile;
-                    MeshTileGraphic tileGraphic = Instantiate(tilePrefab.mesh, meshRoot);
-                    tileGraphic.transform.localPosition += new Vector3(col, row, 0f);
+                    MeshTileGraphic tileGraphic = null;
+                    if (tilePrefab.mesh)
+                    {
+                        tileGraphic = Instantiate(tilePrefab.mesh, meshRoot);
+                        tileGraphic.transform.localPosition += new Vector3(col, row, 0f);
+                        switch (info.dir)
+                        {
+                            case TileInfo.Direction.Random:
+                                tileGraphic.transform.localEulerAngles += new Vector3(Random.Range(0, 4) * 90f, 0f, 0f);
+                                break;
+                            default:
+                                break;
+                        }
+                    }
                     Tile tile = Instantiate(tilePrefab.tile, tileRoot);
                     tile.transform.localPosition += new Vector3(col, row, 0f);
                     string pos = string.Format("({0},{1})#", row, col);
                     tile.gameObject.name = pos + tile.gameObject.name;
-                    tileGraphic.gameObject.name = pos + tileGraphic.gameObject.name;
-
-                    tileGraphic._tile = tile;
-                    tileGraphic._gridPos = new GridPosition { row = row, col = col };
+                    if (tileGraphic)
+                    {
+                        tileGraphic.gameObject.name = pos + tileGraphic.gameObject.name;
+                        tileGraphic._tile = tile;
+                        tileGraphic._gridPos = new GridPosition { row = row, col = col };
+                    }
                     tile._graphic = tileGraphic;
                     tile._allGraphicList.Add(tileGraphic);
                     tile._data = info.data;
@@ -396,7 +422,7 @@ namespace CustomMap
                     }
 
                     tiles.Add(tile);
-                    tileGraphics.Add(tileGraphic);
+                    if (tileGraphic)  tileGraphics.Add(tileGraphic);
                 }
             }
             Map.Tiles2D tiles2D = new Map.Tiles2D
@@ -449,16 +475,16 @@ namespace CustomMap
             private void Select()
             {
                 m_guiColor = Color.green;
-                m_view.SelectTile(m_index);
+                m_view.SelectTile(this);
             }
         }
 
         [Serializable]
         public class TileInfo
         {
-            public TileInfo() : this(null, SpecialTileType.None) { }
+            public TileInfo() : this(null, SpecialTileType.None, Direction.Up) { }
 
-            public TileInfo(CustomTile tile, SpecialTileType specialTileType)
+            public TileInfo(CustomTile tile, SpecialTileType specialTileType, Direction direction)
             {
                 this.tile = tile;
                 if (tile == null)
@@ -472,6 +498,7 @@ namespace CustomMap
                     return;
                 }
                 this.specialTileType = specialTileType;
+                dir = direction;
                 TileData _data = tile?.tile?._data;
                 if (_data != null)
                 {

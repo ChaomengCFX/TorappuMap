@@ -17,6 +17,7 @@ namespace CustomMap
             var tree = new OdinMenuTree();
             tree.Selection.SupportsMultiSelect = false;
             tree.AddAssetAtPath("MapBuild", "Assets/CustomMap/MapBuildView.asset");
+            tree.AddAssetAtPath("RouteBuild", "Assets/CustomMap/RouteBuildView.asset");
             tree.AddAssetAtPath("LevelDataBuild", "Assets/CustomMap/LevelDataBuildView.asset");
             tree.AddAssetAtPath("LevelData", "Assets/CustomMap/LevelData.asset");
             foreach (OdinMenuItem item in tree)
