@@ -39,8 +39,8 @@ MonoBehaviour:
       Entry: 7
       Data: 1|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
@@ -52,16 +52,16 @@ MonoBehaviour:
       Data: 2|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_forbidden
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -81,29 +81,29 @@ MonoBehaviour:
       Entry: 7
       Data: 3|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 1
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 4|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_forbidden
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -123,29 +123,29 @@ MonoBehaviour:
       Entry: 7
       Data: 5|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 1
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 6|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_forbidden
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -165,29 +165,29 @@ MonoBehaviour:
       Entry: 7
       Data: 7|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 1
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 8|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_forbidden
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -207,8 +207,8 @@ MonoBehaviour:
       Entry: 7
       Data: 9|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
@@ -220,16 +220,16 @@ MonoBehaviour:
       Data: 10|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_forbidden
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -249,29 +249,29 @@ MonoBehaviour:
       Entry: 7
       Data: 11|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 1
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 12|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_forbidden
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -333,8 +333,8 @@ MonoBehaviour:
       Entry: 7
       Data: 15|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
@@ -346,16 +346,16 @@ MonoBehaviour:
       Data: 16|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_forbidden
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -382,7 +382,7 @@ MonoBehaviour:
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 18|Torappu.TileData, Assembly-CSharp
@@ -424,7 +424,7 @@ MonoBehaviour:
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 20|Torappu.TileData, Assembly-CSharp
@@ -439,7 +439,7 @@ MonoBehaviour:
       Data: 1
     - Name: passableMask
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -466,22 +466,22 @@ MonoBehaviour:
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 22|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_road
+      Data: tile_empty
     - Name: heightType
       Entry: 3
       Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -508,22 +508,22 @@ MonoBehaviour:
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 24|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_road
+      Data: tile_empty
     - Name: heightType
       Entry: 3
       Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -550,22 +550,22 @@ MonoBehaviour:
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 26|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_road
+      Data: tile_empty
     - Name: heightType
       Entry: 3
       Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -585,29 +585,29 @@ MonoBehaviour:
       Entry: 7
       Data: 27|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 2
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 28|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_road
+      Data: tile_empty
     - Name: heightType
       Entry: 3
       Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -627,14 +627,14 @@ MonoBehaviour:
       Entry: 7
       Data: 29|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 2
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 30|Torappu.TileData, Assembly-CSharp
@@ -649,7 +649,7 @@ MonoBehaviour:
       Data: 1
     - Name: passableMask
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -669,8 +669,8 @@ MonoBehaviour:
       Entry: 7
       Data: 31|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
@@ -682,16 +682,16 @@ MonoBehaviour:
       Data: 32|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_forbidden
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -718,7 +718,7 @@ MonoBehaviour:
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 34|Torappu.TileData, Assembly-CSharp
@@ -733,7 +733,7 @@ MonoBehaviour:
       Data: 1
     - Name: passableMask
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -753,29 +753,29 @@ MonoBehaviour:
       Entry: 7
       Data: 35|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 5
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 36|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_wall
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -795,29 +795,29 @@ MonoBehaviour:
       Entry: 7
       Data: 37|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 5
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 38|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_wall
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -837,29 +837,29 @@ MonoBehaviour:
       Entry: 7
       Data: 39|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 5
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 40|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_wall
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -886,7 +886,7 @@ MonoBehaviour:
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 42|Torappu.TileData, Assembly-CSharp
@@ -895,13 +895,13 @@ MonoBehaviour:
       Data: tile_wall
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 2
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -963,8 +963,8 @@ MonoBehaviour:
       Entry: 7
       Data: 45|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 2
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
@@ -976,16 +976,16 @@ MonoBehaviour:
       Data: 46|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_road
+      Data: tile_empty
     - Name: heightType
       Entry: 3
       Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -1005,8 +1005,8 @@ MonoBehaviour:
       Entry: 7
       Data: 47|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
@@ -1018,16 +1018,16 @@ MonoBehaviour:
       Data: 48|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_forbidden
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -1054,22 +1054,22 @@ MonoBehaviour:
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 50|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_road
+      Data: tile_empty
     - Name: heightType
       Entry: 3
       Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -1089,29 +1089,29 @@ MonoBehaviour:
       Entry: 7
       Data: 51|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 4
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 52|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_road
+      Data: tile_empty
     - Name: heightType
       Entry: 3
       Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -1138,22 +1138,22 @@ MonoBehaviour:
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 54|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_road
+      Data: tile_empty
     - Name: heightType
       Entry: 3
       Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -1180,22 +1180,22 @@ MonoBehaviour:
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 56|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_road
+      Data: tile_empty
     - Name: heightType
       Entry: 3
       Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -1222,7 +1222,7 @@ MonoBehaviour:
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 58|Torappu.TileData, Assembly-CSharp
@@ -1312,16 +1312,16 @@ MonoBehaviour:
       Data: 62|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_road
+      Data: tile_empty
     - Name: heightType
       Entry: 3
       Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -1341,8 +1341,8 @@ MonoBehaviour:
       Entry: 7
       Data: 63|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
@@ -1354,16 +1354,16 @@ MonoBehaviour:
       Data: 64|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_forbidden
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -1425,8 +1425,8 @@ MonoBehaviour:
       Entry: 7
       Data: 67|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 4
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
@@ -1438,16 +1438,16 @@ MonoBehaviour:
       Data: 68|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_road
+      Data: tile_empty
     - Name: heightType
       Entry: 3
       Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -1474,7 +1474,7 @@ MonoBehaviour:
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 70|Torappu.TileData, Assembly-CSharp
@@ -1516,22 +1516,22 @@ MonoBehaviour:
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 72|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_road
+      Data: tile_empty
     - Name: heightType
       Entry: 3
       Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -1558,7 +1558,7 @@ MonoBehaviour:
       Data: 2
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 74|Torappu.TileData, Assembly-CSharp
@@ -1635,8 +1635,8 @@ MonoBehaviour:
       Entry: 7
       Data: 77|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 2
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
@@ -1648,16 +1648,16 @@ MonoBehaviour:
       Data: 78|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_road
+      Data: tile_empty
     - Name: heightType
       Entry: 3
       Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -1677,8 +1677,8 @@ MonoBehaviour:
       Entry: 7
       Data: 79|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
@@ -1690,16 +1690,16 @@ MonoBehaviour:
       Data: 80|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_forbidden
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -1719,8 +1719,8 @@ MonoBehaviour:
       Entry: 7
       Data: 81|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
@@ -1732,16 +1732,16 @@ MonoBehaviour:
       Data: 82|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_forbidden
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -1774,16 +1774,16 @@ MonoBehaviour:
       Data: 84|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_road
+      Data: tile_empty
     - Name: heightType
       Entry: 3
       Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -1810,7 +1810,7 @@ MonoBehaviour:
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 86|Torappu.TileData, Assembly-CSharp
@@ -1852,7 +1852,7 @@ MonoBehaviour:
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 88|Torappu.TileData, Assembly-CSharp
@@ -1887,29 +1887,29 @@ MonoBehaviour:
       Entry: 7
       Data: 89|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 5
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 90|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_wall
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -1971,8 +1971,8 @@ MonoBehaviour:
       Entry: 7
       Data: 93|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 2
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
@@ -1984,16 +1984,16 @@ MonoBehaviour:
       Data: 94|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_road
+      Data: tile_empty
     - Name: heightType
       Entry: 3
       Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -2013,8 +2013,8 @@ MonoBehaviour:
       Entry: 7
       Data: 95|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
@@ -2026,16 +2026,16 @@ MonoBehaviour:
       Data: 96|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_forbidden
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -2055,8 +2055,8 @@ MonoBehaviour:
       Entry: 7
       Data: 97|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
@@ -2068,16 +2068,16 @@ MonoBehaviour:
       Data: 98|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_forbidden
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -2110,16 +2110,16 @@ MonoBehaviour:
       Data: 100|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_road
+      Data: tile_empty
     - Name: heightType
       Entry: 3
       Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -2146,7 +2146,7 @@ MonoBehaviour:
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 102|Torappu.TileData, Assembly-CSharp
@@ -2230,7 +2230,7 @@ MonoBehaviour:
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 106|Torappu.TileData, Assembly-CSharp
@@ -2265,8 +2265,8 @@ MonoBehaviour:
       Entry: 7
       Data: 107|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 4
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
@@ -2278,16 +2278,16 @@ MonoBehaviour:
       Data: 108|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_road
+      Data: tile_empty
     - Name: heightType
       Entry: 3
       Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -2307,8 +2307,8 @@ MonoBehaviour:
       Entry: 7
       Data: 109|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 2
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
@@ -2320,16 +2320,16 @@ MonoBehaviour:
       Data: 110|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_road
+      Data: tile_empty
     - Name: heightType
       Entry: 3
       Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -2349,8 +2349,8 @@ MonoBehaviour:
       Entry: 7
       Data: 111|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
@@ -2362,16 +2362,16 @@ MonoBehaviour:
       Data: 112|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_forbidden
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -2391,8 +2391,8 @@ MonoBehaviour:
       Entry: 7
       Data: 113|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
@@ -2404,16 +2404,16 @@ MonoBehaviour:
       Data: 114|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_forbidden
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -2446,16 +2446,16 @@ MonoBehaviour:
       Data: 116|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_road
+      Data: tile_empty
     - Name: heightType
       Entry: 3
       Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -2482,7 +2482,7 @@ MonoBehaviour:
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 118|Torappu.TileData, Assembly-CSharp
@@ -2530,16 +2530,16 @@ MonoBehaviour:
       Data: 120|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_road
+      Data: tile_empty
     - Name: heightType
       Entry: 3
       Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -2559,29 +2559,29 @@ MonoBehaviour:
       Entry: 7
       Data: 121|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 4
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 122|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_road
+      Data: tile_empty
     - Name: heightType
       Entry: 3
       Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -2685,8 +2685,8 @@ MonoBehaviour:
       Entry: 7
       Data: 127|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
@@ -2698,16 +2698,16 @@ MonoBehaviour:
       Data: 128|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_forbidden
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -2727,8 +2727,8 @@ MonoBehaviour:
       Entry: 7
       Data: 129|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
@@ -2740,16 +2740,16 @@ MonoBehaviour:
       Data: 130|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_forbidden
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -2782,16 +2782,16 @@ MonoBehaviour:
       Data: 132|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_road
+      Data: tile_empty
     - Name: heightType
       Entry: 3
       Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -2827,13 +2827,13 @@ MonoBehaviour:
       Data: tile_wall
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 2
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -2853,29 +2853,29 @@ MonoBehaviour:
       Entry: 7
       Data: 135|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 5
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 136|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_wall
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -2902,7 +2902,7 @@ MonoBehaviour:
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 138|Torappu.TileData, Assembly-CSharp
@@ -2911,13 +2911,13 @@ MonoBehaviour:
       Data: tile_forbidden
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -2944,7 +2944,7 @@ MonoBehaviour:
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 140|Torappu.TileData, Assembly-CSharp
@@ -2953,13 +2953,13 @@ MonoBehaviour:
       Data: tile_forbidden
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -2986,7 +2986,7 @@ MonoBehaviour:
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 142|Torappu.TileData, Assembly-CSharp
@@ -3021,8 +3021,8 @@ MonoBehaviour:
       Entry: 7
       Data: 143|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
@@ -3034,16 +3034,16 @@ MonoBehaviour:
       Data: 144|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_forbidden
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -3063,8 +3063,8 @@ MonoBehaviour:
       Entry: 7
       Data: 145|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
@@ -3076,16 +3076,16 @@ MonoBehaviour:
       Data: 146|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_forbidden
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -3118,16 +3118,16 @@ MonoBehaviour:
       Data: 148|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_road
+      Data: tile_empty
     - Name: heightType
       Entry: 3
       Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -3154,22 +3154,22 @@ MonoBehaviour:
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 150|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_road
+      Data: tile_empty
     - Name: heightType
       Entry: 3
       Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -3196,22 +3196,22 @@ MonoBehaviour:
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 152|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_road
+      Data: tile_empty
     - Name: heightType
       Entry: 3
       Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -3238,22 +3238,22 @@ MonoBehaviour:
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 154|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_road
+      Data: tile_empty
     - Name: heightType
       Entry: 3
       Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -3280,22 +3280,22 @@ MonoBehaviour:
       Data: 0
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 156|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_road
+      Data: tile_empty
     - Name: heightType
       Entry: 3
       Data: 0
     - Name: buildableType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -3315,8 +3315,8 @@ MonoBehaviour:
       Entry: 7
       Data: 157|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 4
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
@@ -3337,7 +3337,7 @@ MonoBehaviour:
       Data: 1
     - Name: passableMask
       Entry: 3
-      Data: 3
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -3357,8 +3357,8 @@ MonoBehaviour:
       Entry: 7
       Data: 159|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
@@ -3370,16 +3370,16 @@ MonoBehaviour:
       Data: 160|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_forbidden
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -3399,8 +3399,8 @@ MonoBehaviour:
       Entry: 7
       Data: 161|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
@@ -3412,16 +3412,16 @@ MonoBehaviour:
       Data: 162|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_forbidden
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -3448,7 +3448,7 @@ MonoBehaviour:
       Data: 1
     - Name: dir
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: data
       Entry: 7
       Data: 164|Torappu.TileData, Assembly-CSharp
@@ -3483,8 +3483,8 @@ MonoBehaviour:
       Entry: 7
       Data: 165|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
@@ -3496,16 +3496,16 @@ MonoBehaviour:
       Data: 166|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_forbidden
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -3525,8 +3525,8 @@ MonoBehaviour:
       Entry: 7
       Data: 167|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
@@ -3538,16 +3538,16 @@ MonoBehaviour:
       Data: 168|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_forbidden
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -3567,8 +3567,8 @@ MonoBehaviour:
       Entry: 7
       Data: 169|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
@@ -3580,16 +3580,16 @@ MonoBehaviour:
       Data: 170|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_forbidden
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -3609,8 +3609,8 @@ MonoBehaviour:
       Entry: 7
       Data: 171|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
@@ -3622,16 +3622,16 @@ MonoBehaviour:
       Data: 172|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_forbidden
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -3651,8 +3651,8 @@ MonoBehaviour:
       Entry: 7
       Data: 173|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
@@ -3664,16 +3664,16 @@ MonoBehaviour:
       Data: 174|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_forbidden
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
@@ -3693,8 +3693,8 @@ MonoBehaviour:
       Entry: 7
       Data: 175|CustomMap.MapBuildView+TileInfo, Assembly-CSharp-Editor
     - Name: tile
-      Entry: 10
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: specialTileType
       Entry: 3
       Data: 0
@@ -3706,16 +3706,16 @@ MonoBehaviour:
       Data: 176|Torappu.TileData, Assembly-CSharp
     - Name: tileKey
       Entry: 1
-      Data: tile_forbidden
+      Data: tile_empty
     - Name: heightType
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: buildableType
       Entry: 3
       Data: 0
     - Name: passableMask
       Entry: 3
-      Data: 2
+      Data: 0
     - Name: playerSideMask
       Entry: 3
       Data: 0
