@@ -57,7 +57,7 @@ namespace CustomMap
 
         private void OnSceneGUI(SceneView sceneView)
         {
-            if (mapBuildView.map)
+            if (mapBuildView?.map)
                 routeSelected?.OnSceneGUI(sceneView, mapBuildView.map._anchorTransform);
         }
 

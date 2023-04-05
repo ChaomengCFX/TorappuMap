@@ -44,9 +44,15 @@ MonoBehaviour:
         reachOffset: {x: 0, y: 0}
         randomizeReachOffset: 0
         reachDistance: 0
+      - type: 1
+        time: 5
+        position: {x: 3, y: 7}
+        reachOffset: {x: 0, y: 0}
+        randomizeReachOffset: 0
+        reachDistance: 0
       - type: 0
         time: 0
-        position: {x: 6, y: 6}
+        position: {x: 4, y: 1}
         reachOffset: {x: 0, y: 0}
         randomizeReachOffset: 0
         reachDistance: 0
@@ -59,5 +65,23 @@ MonoBehaviour:
     endPosition: {x: 0, y: 1}
     spawnRandomRange: {x: 0, y: 0}
     spawnOffset: {x: 0, y: 0}
-    checkpoints: []
+    checkpoints:
+    - type: 0
+      time: 0
+      position: {x: 9, y: 1}
+      reachOffset: {x: 0, y: 0}
+      randomizeReachOffset: 0
+      reachDistance: 0
+    - type: 1
+      time: 5
+      position: {x: 3, y: 7}
+      reachOffset: {x: 0, y: 0}
+      randomizeReachOffset: 0
+      reachDistance: 0
+    - type: 0
+      time: 0
+      position: {x: 4, y: 1}
+      reachOffset: {x: 0, y: 0}
+      randomizeReachOffset: 0
+      reachDistance: 0
     allowDiagonalMove: 1

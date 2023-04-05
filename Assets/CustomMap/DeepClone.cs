@@ -31,6 +31,13 @@ public static class CloneUtil
             if (toTypeField == null) continue;
             if (!fromTypeField.FieldType.IsEnum && (fromTypeField.FieldType.IsValueType || fromTypeField.FieldType.Equals(typeof(string))))
             {
+                if (fromTypeField.FieldType.Equals(typeof(string)))
+                {
+                    if (string.IsNullOrEmpty((string)fieldValue))
+                    {
+                        fieldValue = null;
+                    }
+                }
                 toTypeField.SetValue(returnObj, fieldValue);
             }
             else if (fromTypeField.FieldType.IsEnum)
