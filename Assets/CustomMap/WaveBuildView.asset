@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fb00f08975c9c4a9fcfd88f0ec0756, type: 3}
+  m_Name: WaveBuildView
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  waveDatas:
+  - preDelay: 567567
+    postDelay: 657567700
+    maxTimeWaitingForNextWave: 545
+    fragments:
+    - preDelay: 0
+      actions:
+      - actionType: 0
+        managedByScheduler: 1
+        key: 
+        count: 5676
+        preDelay: 0
+        interval: 0
+        routeIndex: 0
+        blockFragment: 0
+        autoPreviewRoute: 1
+        autoDisplayEnemyInfo: 1
+        isUnharmfulAndAlwaysCountAsKilled: 0
+        hiddenGroup: zhuzhuxd
+        randomSpawnGroupKey: jjjj
+        randomSpawnGroupPackKey: 
+        randomType: 1
+        weight: 0
+        dontBlockWave: 0
+    advancedWaveTag: 

@@ -88,7 +88,7 @@ namespace CustomMap
         {
             if (info.ChangeType == CollectionChangeType.Add)
             {
-                tiles[tiles.Count - 1].Init(tiles.Count - 1, this);
+                tiles[tiles.Count - 1].Init(this);
             }
         }
 
@@ -443,7 +443,7 @@ namespace CustomMap
         {
             private Color m_guiColor = Color.white;
 
-            private int m_index;
+            [SerializeField, HideInInspector]
             private MapBuildView m_view;
 
             [GUIColor("$m_guiColor"), TableColumnWidth(100), OnValueChanged("OnTileChanged")]
@@ -460,9 +460,8 @@ namespace CustomMap
                 description = tile.description;
             }
 
-            public void Init(int index, MapBuildView view)
+            public void Init(MapBuildView view)
             {
-                m_index = index;
                 m_view = view;
             }
 

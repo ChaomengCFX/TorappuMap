@@ -21,5 +21,43 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   routes:
-  - motionMode: 0
+  - routeInfo:
+      motionMode: 0
+      startPosition: {x: 1, y: 1}
+      endPosition: {x: 9, y: 2}
+      spawnRandomRange: {x: 0, y: 0}
+      spawnOffset: {x: 0, y: 0}
+      checkpoints:
+      - type: 0
+        time: 0
+        position: {x: 4, y: 0}
+        reachOffset: {x: 0, y: 0}
+        randomizeReachOffset: 0
+        reachDistance: 0
+      - type: 0
+        time: 0
+        position: {x: 5, y: 5}
+        reachOffset: {x: 0, y: 0}
+        randomizeReachOffset: 0
+        reachDistance: 0
+      allowDiagonalMove: 1
+    m_index: 0
+    m_view: {fileID: 11400000}
+  - routeInfo:
+      motionMode: 0
+      startPosition: {x: 1, y: 1}
+      endPosition: {x: 5, y: 5}
+      spawnRandomRange: {x: 0, y: 0}
+      spawnOffset: {x: 0, y: 0}
+      checkpoints: []
+      allowDiagonalMove: 1
     m_index: 1
+    m_view: {fileID: 11400000}
+  routeSelected:
+    motionMode: 0
+    startPosition: {x: 1, y: 1}
+    endPosition: {x: 5, y: 5}
+    spawnRandomRange: {x: 0, y: 0}
+    spawnOffset: {x: 0, y: 0}
+    checkpoints: []
+    allowDiagonalMove: 1

@@ -15,10 +15,14 @@ public class LevelDataBuildView : ScriptableObject, IResetable
     public void Reset()
     {
         mapBuildView = AssetDatabase.LoadAssetAtPath<MapBuildView>("Assets/CustomMap/MapBuildView.asset");
+        routeBuildView = AssetDatabase.LoadAssetAtPath<RouteBuildView>("Assets/CustomMap/RouteBuildView.asset");
+        waveBuildView = AssetDatabase.LoadAssetAtPath<WaveBuildView>("Assets/CustomMap/WaveBuildView.asset");
         levelDataResource = AssetDatabase.LoadAssetAtPath<LevelDataResource>("Assets/CustomMap/LevelData.asset");
     }
 
     private MapBuildView mapBuildView;
+    private RouteBuildView routeBuildView;
+    private WaveBuildView waveBuildView;
     private LevelDataResource levelDataResource;
 
     private string m_outPut;
@@ -65,5 +69,21 @@ public class LevelDataBuildView : ScriptableObject, IResetable
             }
         }
         levelDataResource.LevelData.mapData = mapData;
+    }
+
+    [BoxGroup("InOut", LabelText = "修改LevelData"), Button("加载路线信息")]
+    public void LoadRouteData()
+    {
+        var routeData = levelDataResource.LevelData.routes;
+        routeBuildView.ApplyTo(ref routeData);
+        levelDataResource.LevelData.routes = routeData;
+    }
+
+    [BoxGroup("InOut", LabelText = "修改LevelData"), Button("加载波次信息")]
+    public void LoadWaveData()
+    {
+        var waveData = levelDataResource.LevelData.waves;
+        waveBuildView.ApplyTo(ref waveData);
+        levelDataResource.LevelData.waves = waveData;
     }
 }
