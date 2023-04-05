@@ -211,12 +211,17 @@ namespace CustomMap
             }
         }
 
+        private bool IsMouseDown(Rect rect)
+        {
+            return (Event.current.type == EventType.MouseDrag || Event.current.type == EventType.MouseDown) && rect.Contains(Event.current.mousePosition);
+        }
+
         /// <summary>
         /// 绘制Tile类型图
         /// </summary>
         private TileInfo DrawTileMapElement(Rect rect, TileInfo value)
         {
-            if (Event.current.type == EventType.MouseDown && rect.Contains(Event.current.mousePosition))
+            if (IsMouseDown(rect))
             {
                 value = new TileInfo(tileSelected, specialTileType, tileDirection);
                 GUI.changed = true;
@@ -242,7 +247,7 @@ namespace CustomMap
         /// </summary>
         private TileInfo DrawHeightMapElement(Rect rect, TileInfo value)
         {
-            if (Event.current.type == EventType.MouseDown && rect.Contains(Event.current.mousePosition) && !value.IsNull)
+            if (IsMouseDown(rect) && !value.IsNull)
             {
                 value.OnTriggleHeight();
                 GUI.changed = true;
@@ -274,7 +279,7 @@ namespace CustomMap
         /// </summary>
         private TileInfo DrawBuildableMapElement(Rect rect, TileInfo value)
         {
-            if (Event.current.type == EventType.MouseDown && rect.Contains(Event.current.mousePosition) && !value.IsNull)
+            if (IsMouseDown(rect) && !value.IsNull)
             {
                 value.data.buildableType = selectedbuildableType;
                 GUI.changed = true;
@@ -317,7 +322,7 @@ namespace CustomMap
         /// </summary>
         private TileInfo DrawPassableMapElement(Rect rect, TileInfo value)
         {
-            if (Event.current.type == EventType.MouseDown && rect.Contains(Event.current.mousePosition) && !value.IsNull)
+            if (IsMouseDown(rect) && !value.IsNull)
             {
                 value.data.passableMask = selectedMotionMask;
                 GUI.changed = true;
@@ -433,6 +438,7 @@ namespace CustomMap
             };
             map._graphic._graphics = tileGraphics.ToArray();
             map._tiles = tiles2D;
+            map._anchorTransform.localPosition = new Vector3(-(width - 1) / 2f, -(height - 1) / 2f, 0f);
 
             Debug.Log("Build done");
         }

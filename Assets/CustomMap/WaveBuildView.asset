@@ -34,7 +34,7 @@ MonoBehaviour:
         preDelay: 0
         interval: 1
         routeIndex: 0
-        blockFragment: 0
+        blockFragment: 1
         autoPreviewRoute: 1
         autoDisplayEnemyInfo: 1
         isUnharmfulAndAlwaysCountAsKilled: 0
@@ -45,7 +45,7 @@ MonoBehaviour:
         weight: 0
         dontBlockWave: 0
       - actionType: 0
-        managedByScheduler: 0
+        managedByScheduler: 1
         key: enemy_1077_sotihd
         count: 5
         preDelay: 10
@@ -55,6 +55,30 @@ MonoBehaviour:
         autoPreviewRoute: 1
         autoDisplayEnemyInfo: 0
         isUnharmfulAndAlwaysCountAsKilled: 1
+        hiddenGroup: 
+        randomSpawnGroupKey: 
+        randomSpawnGroupPackKey: 
+        randomType: 0
+        weight: 0
+        dontBlockWave: 0
+    advancedWaveTag: 
+  - preDelay: 0
+    postDelay: 0
+    maxTimeWaitingForNextWave: -1
+    fragments:
+    - preDelay: 0
+      actions:
+      - actionType: 0
+        managedByScheduler: 1
+        key: enemy_1077_sotihd
+        count: 3
+        preDelay: 0
+        interval: 1
+        routeIndex: 2
+        blockFragment: 0
+        autoPreviewRoute: 1
+        autoDisplayEnemyInfo: 1
+        isUnharmfulAndAlwaysCountAsKilled: 0
         hiddenGroup: 
         randomSpawnGroupKey: 
         randomSpawnGroupPackKey: 

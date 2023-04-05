@@ -22,6 +22,11 @@ namespace CustomMap
             }
         }
 
+        public class EnemyData
+        {
+            // TODO
+        }
+
         [Serializable]
         public class WaveData
         {
