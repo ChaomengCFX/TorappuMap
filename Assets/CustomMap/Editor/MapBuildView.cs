@@ -10,7 +10,6 @@ using Torappu;
 using Torappu.Battle;
 using Torappu.Battle.Tiles;
 using Random = UnityEngine.Random;
-using FullInspector;
 
 namespace CustomMap
 {
