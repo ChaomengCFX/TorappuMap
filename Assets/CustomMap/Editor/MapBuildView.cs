@@ -383,7 +383,7 @@ namespace CustomMap
             _ClearAllTile();
 
             List<Tile> tiles = new List<Tile>();
-            List<MeshTileGraphic> tileGraphics = new List<MeshTileGraphic>();
+            List<TileGraphic> tileGraphics = new List<TileGraphic>();
             for (int row = 0; row < height; row++)
             {
                 for (int col = 0; col < width; col++)
@@ -391,7 +391,7 @@ namespace CustomMap
                     TileInfo info = tileMap[col, height - row - 1];
                     if (info == null || info.tile == null) continue;
                     CustomTile tilePrefab = info.tile;
-                    MeshTileGraphic tileGraphic = null;
+                    TileGraphic tileGraphic = null;
                     if (tilePrefab.mesh)
                     {
                         tileGraphic = Instantiate(tilePrefab.mesh, meshRoot);

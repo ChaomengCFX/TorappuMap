@@ -1,15 +1,27 @@
 ﻿using UnityEditor;
 using UnityEngine;
 using Sirenix.OdinInspector.Editor;
+using System.Collections.Generic;
 
 namespace CustomMap
 {
     public class MapEditorWindow : OdinMenuEditorWindow
     {
+        private HashSet<ISceneGUI> m_SceneGUIs = new HashSet<ISceneGUI>();
+
         [MenuItem("CustomMap/Map Editor")]
         private static void OpenWindow()
         {
             GetWindow<MapEditorWindow>().Show();
+        }
+
+        private void OnDisable()
+        {
+            foreach (var item in m_SceneGUIs)
+            {
+                SceneView.onSceneGUIDelegate -= item.OnSceneGUI;
+            }
+            m_SceneGUIs.Clear();
         }
 
         protected override OdinMenuTree BuildMenuTree()
@@ -24,6 +36,12 @@ namespace CustomMap
             foreach (OdinMenuItem item in tree)
             {
                 (item.Value as IResetable)?.Reset();
+                if (typeof(ISceneGUI).IsAssignableFrom(item.Value.GetType()))
+                {
+                    ISceneGUI obj = (ISceneGUI)item.Value;
+                    m_SceneGUIs.Add(obj);
+                    SceneView.onSceneGUIDelegate += obj.OnSceneGUI;
+                }
             }
             return tree;
         }

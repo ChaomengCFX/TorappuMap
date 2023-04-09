@@ -1,9 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using Torappu.Battle;
-using Torappu.Battle.Tiles;
-using Torappu;
 
 namespace CustomMap
 {
@@ -11,7 +7,7 @@ namespace CustomMap
     {
         public Tile tile;
 
-        public MeshTileGraphic mesh;
+        public TileGraphic mesh;
 
         public string description;
     }

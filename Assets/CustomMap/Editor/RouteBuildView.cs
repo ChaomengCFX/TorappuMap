@@ -9,18 +9,8 @@ using Torappu;
 namespace CustomMap
 {
     [CreateAssetMenu(fileName = "RouteBuildView", menuName = "CustomMap/RouteBuildView")]
-    public class RouteBuildView : SerializedScriptableObject, IResetable
+    public class RouteBuildView : SerializedScriptableObject, IResetable, ISceneGUI
     {
-        private void OnEnable()
-        {
-            SceneView.onSceneGUIDelegate += OnSceneGUI;
-        }
-
-        private void OnDisable()
-        {
-            SceneView.onSceneGUIDelegate -= OnSceneGUI;
-        }
-
         public void Reset()
         {
             mapBuildView = AssetDatabase.LoadAssetAtPath<MapBuildView>("Assets/CustomMap/MapBuildView.asset");
@@ -55,7 +45,7 @@ namespace CustomMap
             }
         }
 
-        private void OnSceneGUI(SceneView sceneView)
+        public void OnSceneGUI(SceneView sceneView)
         {
             if (mapBuildView?.map)
                 routeSelected?.OnSceneGUI(sceneView, mapBuildView.map._anchorTransform);
