@@ -1,4 +1,7 @@
 ﻿#if UNITY_EDITOR
+// Author: ChaomengCFX
+// Created: 2023/04/29
+
 using UnityEngine;
 
 namespace CustomMap.TileInformation

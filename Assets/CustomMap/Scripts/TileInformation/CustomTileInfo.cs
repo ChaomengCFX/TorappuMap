@@ -104,18 +104,18 @@ namespace CustomMap.TileInformation
                 switch (Direction)
                 {
                     case TileDirection.Random:
-                        graphic.transform.localEulerAngles += new Vector3(Random.Range(0, 4) * 90f, 0f, 0f);
+                        graphic.transform.localEulerAngles += new Vector3(0f, 0f, Random.Range(0, 4) * 90f);
                         break;
                     case TileDirection.Up:
                         break;
                     case TileDirection.Down:
-                        graphic.transform.localEulerAngles += new Vector3(180f, 0f, 0f);
+                        graphic.transform.localEulerAngles += new Vector3(0f, 0f, 180f);
                         break;
                     case TileDirection.Left:
-                        graphic.transform.localEulerAngles += new Vector3(270f, 0f, 0f);
+                        graphic.transform.localEulerAngles += new Vector3(0f, 0f, 270f);
                         break;
                     case TileDirection.Right:
-                        graphic.transform.localEulerAngles += new Vector3(90f, 0f, 0f);
+                        graphic.transform.localEulerAngles += new Vector3(0f, 0f, 90f);
                         break;
                 }
 

@@ -9,106 +9,106 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1327487071228854}
+  m_RootGameObject: {fileID: 1921142818686606}
   m_IsPrefabParent: 1
---- !u!1 &1163115073069546
+--- !u!1 &1432067895692092
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4587278988361126}
-  - component: {fileID: 33683076437552658}
-  - component: {fileID: 23564270439779576}
-  - component: {fileID: 114373973424917108}
-  m_Layer: 0
-  m_Name: S_playground_gird84
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1327487071228854
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4044889577917804}
-  - component: {fileID: 114229775580455822}
-  - component: {fileID: 114101119360730750}
-  m_Layer: 0
-  m_Name: tile_road
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1554389940400562
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4108578900875766}
-  - component: {fileID: 114187188972280036}
+  - component: {fileID: 4638527731497240}
+  - component: {fileID: 114668116640656126}
+  - component: {fileID: 61409598625067180}
   m_Layer: 8
-  m_Name: tile_road
+  m_Name: tile_wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4044889577917804
+--- !u!1 &1586880379471048
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4171058639098514}
+  - component: {fileID: 33613672780735606}
+  - component: {fileID: 23167483445411738}
+  - component: {fileID: 114421112887732800}
+  m_Layer: 0
+  m_Name: S_export_crack34
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1921142818686606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4369861557589220}
+  - component: {fileID: 114391433267625630}
+  m_Layer: 0
+  m_Name: tile_wall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4171058639098514
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1327487071228854}
+  m_GameObject: {fileID: 1586880379471048}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.37965342}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4369861557589220}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -0, y: 90, z: 0}
+--- !u!4 &4369861557589220
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1921142818686606}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4108578900875766}
-  - {fileID: 4587278988361126}
+  - {fileID: 4638527731497240}
+  - {fileID: 4171058639098514}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4108578900875766
+--- !u!4 &4638527731497240
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1554389940400562}
+  m_GameObject: {fileID: 1432067895692092}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4044889577917804}
+  m_Father: {fileID: 4369861557589220}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
---- !u!4 &4587278988361126
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1163115073069546}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.02034666}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4044889577917804}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -0, y: -90, z: 0}
---- !u!23 &23564270439779576
+--- !u!23 &23167483445411738
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1163115073069546}
+  m_GameObject: {fileID: 1586880379471048}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -137,83 +137,57 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33683076437552658
+--- !u!33 &33613672780735606
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1163115073069546}
-  m_Mesh: {fileID: 4300000, guid: 5b05345e04bebb74db4a035b73249e12, type: 2}
---- !u!114 &114101119360730750
-MonoBehaviour:
+  m_GameObject: {fileID: 1586880379471048}
+  m_Mesh: {fileID: 4300000, guid: 0bd43b059c03466438d9d7d0a9a68893, type: 2}
+--- !u!61 &61409598625067180
+BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1327487071228854}
+  m_GameObject: {fileID: 1432067895692092}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41324f8bc3533424dae5074f20f23300, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes: []
-  dataPair: {fileID: 114229775580455822}
-  description: mono
-  icon: {fileID: 0}
---- !u!114 &114187188972280036
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &114391433267625630
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1554389940400562}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f42036cdb9f1fdafe1c8c1af8f1f0c92, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _tileKey: tile_road
-  _height: 0
-  _locateHeightOffset: 0
-  _forceBoxCollider: 0
-  _graphic: {fileID: 0}
-  _allGraphicList: []
-  _effect: 
-  _data:
-    tileKey: tile_road
-    heightType: 0
-    buildableType: 1
-    passableMask: 3
-    playerSideMask: 0
-    blackboard: []
-    effects: []
-  _mapLayer: 0
-  _injectEnvDmgFlagToBlackboard: 1
---- !u!114 &114229775580455822
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1327487071228854}
+  m_GameObject: {fileID: 1921142818686606}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c4aaa6740168e7439fcd630d2ed5cca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tile: {fileID: 114187188972280036}
-  tileGraphic: {fileID: 1163115073069546}
---- !u!114 &114373973424917108
+  tile: {fileID: 114668116640656126}
+  tileGraphic: {fileID: 1586880379471048}
+--- !u!114 &114421112887732800
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1163115073069546}
+  m_GameObject: {fileID: 1586880379471048}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8b24614bb06b652a7c00c175b2048ca9, type: 3}
@@ -224,3 +198,31 @@ MonoBehaviour:
     row: 0
     col: 0
   _mapOffset: {x: 0, y: 0}
+--- !u!114 &114668116640656126
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1432067895692092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f42036cdb9f1fdafe1c8c1af8f1f0c92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tileKey: tile_wall
+  _height: 0.4
+  _locateHeightOffset: 0
+  _forceBoxCollider: 0
+  _graphic: {fileID: 0}
+  _allGraphicList: []
+  _effect: 
+  _data:
+    tileKey: tile_wall
+    heightType: 1
+    buildableType: 2
+    passableMask: 2
+    playerSideMask: 0
+    blackboard: []
+    effects: []
+  _mapLayer: 0
+  _injectEnvDmgFlagToBlackboard: 1

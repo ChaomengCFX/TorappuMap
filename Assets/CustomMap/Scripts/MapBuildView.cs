@@ -13,7 +13,6 @@ using Sirenix.Utilities;
 using Torappu;
 using Torappu.Battle;
 using CustomMap.TileInformation;
-using FullInspector;
 
 namespace CustomMap
 {
@@ -174,7 +173,7 @@ namespace CustomMap
         private void OnEditorTypeChanged()
         {
             if (editorType == EditorType.TileMap)
-                m_tileInfoModifyWindow.Close();
+                m_tileInfoModifyWindow?.Close();
             else
             {
                 m_tileInfoModifyWindow = EditorWindow.GetWindow<TileInfoModifyWindow>();

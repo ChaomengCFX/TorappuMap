@@ -9,7 +9,7 @@ namespace CustomMap.TileInformation
 {
     public class TileInfoModifyWindow : OdinEditorWindow
     {
-        [ShowInInspector]
+        [ShowInInspector, HideLabel]
         public CustomTileInfo.IModifyInterface ModifyInterface { get; set; }
     }
 }

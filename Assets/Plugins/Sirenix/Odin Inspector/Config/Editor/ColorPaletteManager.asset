@@ -118,7 +118,7 @@ MonoBehaviour:
     - {r: 0.886, g: 0.902, b: 0.702, a: 1}
     - {r: 0.753, g: 0.824, b: 0.627, a: 1}
     - {r: 0.404, g: 0.6, b: 0.4, a: 1}
-  - name: Tropical
+  - name: Tile
     showAlpha: 0
     colors:
     - {r: 0.953, g: 0.647, b: 0.804, a: 1}
@@ -133,3 +133,6 @@ MonoBehaviour:
     - {r: 0.647, g: 0.745, b: 0.957, a: 1}
     - {r: 0.725, g: 0.863, b: 0.973, a: 1}
     - {r: 0.89, g: 0.945, b: 0.996, a: 1}
+  - name: Tile
+    showAlpha: 0
+    colors: []

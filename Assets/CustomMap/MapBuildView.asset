@@ -14,1314 +14,3332 @@ MonoBehaviour:
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
-    ReferencedUnityObjects: []
+    ReferencedUnityObjects:
+    - {fileID: 114101119360730750, guid: 7e4496496cba5f043be27b9a0b06cd11, type: 2}
+    - {fileID: 114641338340342848, guid: 80d8cd7268391874eb564e4a1d4d1430, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
-    - Name: tileMap
+    - Name: m_tileMap
       Entry: 7
       Data: 0|CustomMap.TileInformation.CustomTileInfo[,], Assembly-CSharp
     - Name: 
       Entry: 12
-      Data: 216
+      Data: 96
     - Name: ranks
       Entry: 1
-      Data: 18|12
+      Data: 12|8
     - Name: 
       Entry: 7
       Data: 1|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 2|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 2|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 3|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 4|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 4|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 5|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 6|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 6|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 7|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 8|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 8|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 9|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 10|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 10|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 11|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 12|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 12|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 13|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 14|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 14|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 15|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 16|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
-      Data: 16|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+      Data: 17|CustomMap.TileInformation.MonoCustomTile+MonoCustomTileInfo, Assembly-CSharp
+    - Name: m_tile
+      Entry: 10
+      Data: 0
+    - Name: m_tileData
+      Entry: 7
+      Data: 18|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_road
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 1
+    - Name: passableMask
+      Entry: 3
+      Data: 3
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 17|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 18|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_direction
+      Entry: 3
+      Data: 4
+    - Name: m_specialTileType
+      Entry: 3
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 19|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 20|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 20|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 21|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 22|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 22|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 23|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 24|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 24|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 25|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 26|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 26|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 27|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 28|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 28|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 29|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 30|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 30|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 31|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 32|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
-      Data: 32|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+      Data: 33|CustomMap.TileInformation.MonoCustomTile+MonoCustomTileInfo, Assembly-CSharp
+    - Name: m_tile
+      Entry: 10
+      Data: 0
+    - Name: m_tileData
+      Entry: 7
+      Data: 34|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_road
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 1
+    - Name: passableMask
+      Entry: 3
+      Data: 3
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 33|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 34|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_direction
+      Entry: 3
+      Data: 4
+    - Name: m_specialTileType
+      Entry: 3
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 35|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 36|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 36|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 37|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 38|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 38|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 39|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 40|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 40|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 41|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 42|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 42|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 43|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 44|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 44|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 45|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 46|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 46|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 47|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 48|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
-      Data: 48|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+      Data: 49|CustomMap.TileInformation.MonoCustomTile+MonoCustomTileInfo, Assembly-CSharp
+    - Name: m_tile
+      Entry: 10
+      Data: 0
+    - Name: m_tileData
+      Entry: 7
+      Data: 50|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_road
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 1
+    - Name: passableMask
+      Entry: 3
+      Data: 3
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 49|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 50|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_direction
+      Entry: 3
+      Data: 4
+    - Name: m_specialTileType
+      Entry: 3
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 51|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 52|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 52|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 53|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 54|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 54|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 55|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 56|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 56|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 57|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 58|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 58|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 59|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 60|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 60|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 61|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 62|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 62|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 63|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 64|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 64|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 65|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 66|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 66|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 67|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 68|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 68|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 69|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 70|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 70|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 71|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 72|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 72|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 73|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 74|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 74|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 75|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 76|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 76|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 77|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 78|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 78|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 79|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 80|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
-      Data: 80|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+      Data: 81|CustomMap.TileInformation.MultiCustomTile+MultiCustomTileInfo, Assembly-CSharp
+    - Name: m_tile
+      Entry: 10
+      Data: 1
+    - Name: m_tileData
+      Entry: 7
+      Data: 82|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_flystart
+    - Name: heightType
+      Entry: 3
+      Data: 1
+    - Name: buildableType
+      Entry: 3
+      Data: 2
+    - Name: passableMask
+      Entry: 3
+      Data: 2
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 7
+      Data: 83|System.Collections.Generic.List`1[[Torappu.Blackboard+DataPair, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: effects
+      Entry: 7
+      Data: 84|Torappu.MapEffectData[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_direction
+      Entry: 3
+      Data: 0
+    - Name: m_specialTileType
+      Entry: 3
+      Data: 0
+    - Name: m_selectedKey
+      Entry: 1
+      Data: "\u6728\u6869"
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
-      Data: 81|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+      Data: 85|CustomMap.TileInformation.MultiCustomTile+MultiCustomTileInfo, Assembly-CSharp
+    - Name: m_tile
+      Entry: 10
+      Data: 1
+    - Name: m_tileData
+      Entry: 7
+      Data: 86|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_flystart
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 1
+    - Name: passableMask
+      Entry: 3
+      Data: 3
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_direction
+      Entry: 3
+      Data: 4
+    - Name: m_specialTileType
+      Entry: 3
+      Data: 0
+    - Name: m_selectedKey
+      Entry: 1
+      Data: "\u8DEF\u9762"
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
-      Data: 82|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+      Data: 87|CustomMap.TileInformation.MultiCustomTile+MultiCustomTileInfo, Assembly-CSharp
+    - Name: m_tile
+      Entry: 10
+      Data: 1
+    - Name: m_tileData
+      Entry: 7
+      Data: 88|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_flystart
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 1
+    - Name: passableMask
+      Entry: 3
+      Data: 3
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 7
+      Data: 89|System.Collections.Generic.List`1[[Torappu.Blackboard+DataPair, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: effects
+      Entry: 7
+      Data: 90|Torappu.MapEffectData[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
     - Name: 
       Entry: 8
       Data: 
     - Name: 
-      Entry: 7
-      Data: 83|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 84|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 85|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 86|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 87|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 88|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 89|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 90|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_direction
+      Entry: 3
+      Data: 4
+    - Name: m_specialTileType
+      Entry: 3
+      Data: 0
+    - Name: m_selectedKey
+      Entry: 1
+      Data: "\u8DEF\u9762"
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 91|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 92|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 92|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 93|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 94|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 94|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 95|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 96|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 96|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 97|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 98|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 98|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 99|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 100|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 100|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 101|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 102|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
-      Data: 102|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+      Data: 103|CustomMap.TileInformation.MultiCustomTile+MultiCustomTileInfo, Assembly-CSharp
+    - Name: m_tile
+      Entry: 10
+      Data: 1
+    - Name: m_tileData
+      Entry: 7
+      Data: 104|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_flystart
+    - Name: heightType
+      Entry: 3
+      Data: 1
+    - Name: buildableType
+      Entry: 3
+      Data: 2
+    - Name: passableMask
+      Entry: 3
+      Data: 2
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 7
+      Data: 105|System.Collections.Generic.List`1[[Torappu.Blackboard+DataPair, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: effects
+      Entry: 7
+      Data: 106|Torappu.MapEffectData[], Assembly-CSharp
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_direction
+      Entry: 3
+      Data: 4
+    - Name: m_specialTileType
+      Entry: 3
+      Data: 0
+    - Name: m_selectedKey
+      Entry: 1
+      Data: "\u9AD8\u53F0"
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
-      Data: 103|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+      Data: 107|CustomMap.TileInformation.MultiCustomTile+MultiCustomTileInfo, Assembly-CSharp
+    - Name: m_tile
+      Entry: 10
+      Data: 1
+    - Name: m_tileData
+      Entry: 7
+      Data: 108|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_flystart
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 1
+    - Name: passableMask
+      Entry: 3
+      Data: 3
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 104|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 105|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 106|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 107|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 108|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_direction
+      Entry: 3
+      Data: 4
+    - Name: m_specialTileType
+      Entry: 3
+      Data: 0
+    - Name: m_selectedKey
+      Entry: 1
+      Data: "\u8DEF\u9762"
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 109|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 110|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 110|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 111|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 112|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 112|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 113|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 114|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 114|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 115|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 116|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 116|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 117|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 118|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 118|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 119|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 120|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 120|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 121|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 122|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 122|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 123|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 124|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 124|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 125|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 126|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 126|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 127|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 128|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 128|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 129|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 130|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 130|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 131|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 132|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 132|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 133|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 134|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 134|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 135|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 136|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 136|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 137|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 138|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 138|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 139|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 140|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 140|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 141|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 142|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 142|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 143|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 144|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 144|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 145|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 146|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 146|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 147|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 148|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 148|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 149|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 150|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 150|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 151|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 152|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 152|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 153|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 154|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 154|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 155|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 156|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 156|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 157|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 158|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 158|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 159|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 160|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 160|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 161|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 162|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 162|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 163|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 164|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 164|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 165|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 166|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 166|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 167|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 168|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 168|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 169|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 170|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 170|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 171|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 172|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 172|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 173|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 174|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 174|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 175|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 176|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 176|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 177|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 178|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 178|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 179|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 180|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 180|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 181|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 182|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 182|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 183|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 184|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 184|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 185|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 186|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 186|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 187|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 188|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 188|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 189|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 190|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 190|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 191|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 192|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 192|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 193|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 194|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 194|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 195|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 196|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 196|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
       Data: 197|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
+    - Name: m_tileData
+      Entry: 7
+      Data: 198|Torappu.TileData, Assembly-CSharp
+    - Name: tileKey
+      Entry: 1
+      Data: tile_empty
+    - Name: heightType
+      Entry: 3
+      Data: 0
+    - Name: buildableType
+      Entry: 3
+      Data: 0
+    - Name: passableMask
+      Entry: 3
+      Data: 0
+    - Name: playerSideMask
+      Entry: 3
+      Data: 0
+    - Name: blackboard
+      Entry: 6
+      Data: 
+    - Name: effects
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 198|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 199|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 200|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 201|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 202|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 203|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 204|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 205|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 206|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 207|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 208|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 209|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 210|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 211|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 212|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 213|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 214|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 215|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 216|CustomMap.TileInformation.EmptyCustomTileInfo, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
@@ -1334,14 +3352,18 @@ MonoBehaviour:
   meshRoot: {fileID: 0}
   tileRoot: {fileID: 0}
   map: {fileID: 0}
-  width: 18
-  height: 12
+  width: 12
+  height: 8
   tiles:
   - m_view: {fileID: 11400000}
-    color: {r: 0, g: 0, b: 0, a: 0}
-  specialTileType: 3
+    tile: {fileID: 114641338340342848, guid: 80d8cd7268391874eb564e4a1d4d1430, type: 2}
+    color: {r: 0.965, g: 0.741, b: 0.871, a: 1}
+  - m_view: {fileID: 11400000}
+    tile: {fileID: 114101119360730750, guid: 7e4496496cba5f043be27b9a0b06cd11, type: 2}
+    color: {r: 0.725, g: 0.976, b: 0.91, a: 1}
+  specialTileType: 0
   tileDirection: 4
-  mapDisplayType: 0
+  mapDisplayType: 2
   _lowLandColor: {r: 0.2, g: 0.9, b: 0.8, a: 1}
   _highLandColor: {r: 1, g: 0.8, b: 0.3, a: 1}
   _buildableNoneColor: {r: 0.4, g: 0, b: 0, a: 1}
@@ -1354,3 +3376,4 @@ MonoBehaviour:
   _passableFlyColor: {r: 1, g: 0.8, b: 0.2, a: 1}
   _passableAllColor: {r: 0.29803923, g: 1, b: 0.6, a: 1}
   selectedMotionMask: 0
+  editorType: 1
