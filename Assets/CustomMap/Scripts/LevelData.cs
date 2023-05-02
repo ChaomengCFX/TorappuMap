@@ -86,6 +86,8 @@ namespace CustomMap
 
             public AttributesData attributes;
 
+            public bool notCountInTotal;
+
             public string alias;
 
             public int lifePointReduce;

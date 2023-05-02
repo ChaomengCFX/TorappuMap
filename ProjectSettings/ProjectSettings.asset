@@ -126,7 +126,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.9.91
+  bundleVersion: 2.0.01
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -158,8 +158,7 @@ PlayerSettings:
   resolutionScalingMode: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier:
-    Android: com.hyperGryph.arknights
+  applicationIdentifier: {}
   buildNumber: {}
   AndroidBundleVersionCode: 0
   AndroidMinSdkVersion: 16
@@ -241,7 +240,7 @@ PlayerSettings:
   tvOSManualSigningProvisioningProfileID: 
   appleEnableAutomaticSigning: 0
   clonedFromGUID: 00000000000000000000000000000000
-  AndroidTargetArchitectures: 4
+  AndroidTargetArchitectures: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: 
@@ -258,8 +257,11 @@ PlayerSettings:
   m_BuildTargetBatching: []
   m_BuildTargetGraphicsAPIs:
   - m_BuildTarget: WindowsStandaloneSupport
-    m_APIs: 0b000000
+    m_APIs: 0b0000000800000015000000
     m_Automatic: 0
+  - m_BuildTarget: MacStandaloneSupport
+    m_APIs: 1000000011000000
+    m_Automatic: 1
   m_BuildTargetVRSettings: []
   m_BuildTargetEnableVuforiaSettings: []
   openGLRequireES31: 0
@@ -552,8 +554,7 @@ PlayerSettings:
   scriptingDefineSymbols:
     7: ODIN_INSPECTOR;ODIN_INSPECTOR_3
   platformArchitecture: {}
-  scriptingBackend:
-    Android: 1
+  scriptingBackend: {}
   incrementalIl2cppBuild: {}
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
