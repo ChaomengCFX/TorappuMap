@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: RouteBuildView
   m_EditorClassIdentifier: 
   serializationData:
-    SerializedFormat: 0
+    SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects: []
     SerializedBytesString: 
@@ -23,8 +23,8 @@ MonoBehaviour:
   routes:
   - routeInfo:
       motionMode: 0
-      startPosition: {x: 16, y: 9}
-      endPosition: {x: 1, y: 1}
+      startPosition: {x: 16, y: 0}
+      endPosition: {x: 1, y: 10}
       spawnRandomRange: {x: 0, y: 0}
       spawnOffset: {x: 0, y: 0}
       checkpoints: []
@@ -33,26 +33,14 @@ MonoBehaviour:
     m_view: {fileID: 11400000}
   - routeInfo:
       motionMode: 0
-      startPosition: {x: 16, y: 6}
-      endPosition: {x: 1, y: 1}
+      startPosition: {x: 3, y: 3}
+      endPosition: {x: 10, y: 10}
       spawnRandomRange: {x: 0, y: 0}
       spawnOffset: {x: 0, y: 0}
       checkpoints:
-      - type: 0
-        time: 0
-        position: {x: 9, y: 1}
-        reachOffset: {x: 0, y: 0}
-        randomizeReachOffset: 0
-        reachDistance: 0
       - type: 1
-        time: 5
-        position: {x: 3, y: 7}
-        reachOffset: {x: 0, y: 0}
-        randomizeReachOffset: 0
-        reachDistance: 0
-      - type: 0
-        time: 0
-        position: {x: 4, y: 1}
+        time: 10
+        position: {x: 16, y: 1}
         reachOffset: {x: 0, y: 0}
         randomizeReachOffset: 0
         reachDistance: 0
@@ -62,19 +50,25 @@ MonoBehaviour:
   - routeInfo:
       motionMode: 0
       startPosition: {x: 16, y: 1}
-      endPosition: {x: 2, y: 10}
+      endPosition: {x: 5, y: 3}
       spawnRandomRange: {x: 0, y: 0}
-      spawnOffset: {x: 0, y: -0.57}
+      spawnOffset: {x: 0, y: 0}
       checkpoints:
-      - type: 5
-        time: 10
-        position: {x: 10, y: 7}
+      - type: 0
+        time: 0
+        position: {x: 3, y: 1}
         reachOffset: {x: 0, y: 0}
         randomizeReachOffset: 0
         reachDistance: 0
-      - type: 6
+      - type: 0
         time: 0
-        position: {x: 1, y: 2}
+        position: {x: 14, y: 9}
+        reachOffset: {x: 0, y: 0}
+        randomizeReachOffset: 0
+        reachDistance: 0
+      - type: 0
+        time: 0
+        position: {x: 1, y: 8}
         reachOffset: {x: 0, y: 0}
         randomizeReachOffset: 0
         reachDistance: 0
@@ -84,19 +78,25 @@ MonoBehaviour:
   routeSelected:
     motionMode: 0
     startPosition: {x: 16, y: 1}
-    endPosition: {x: 2, y: 10}
+    endPosition: {x: 5, y: 3}
     spawnRandomRange: {x: 0, y: 0}
-    spawnOffset: {x: 0, y: -0.57}
+    spawnOffset: {x: 0, y: 0}
     checkpoints:
-    - type: 5
-      time: 10
-      position: {x: 10, y: 7}
+    - type: 0
+      time: 0
+      position: {x: 3, y: 1}
       reachOffset: {x: 0, y: 0}
       randomizeReachOffset: 0
       reachDistance: 0
-    - type: 6
+    - type: 0
       time: 0
-      position: {x: 1, y: 2}
+      position: {x: 14, y: 9}
+      reachOffset: {x: 0, y: 0}
+      randomizeReachOffset: 0
+      reachDistance: 0
+    - type: 0
+      time: 0
+      position: {x: 1, y: 8}
       reachOffset: {x: 0, y: 0}
       randomizeReachOffset: 0
       reachDistance: 0

@@ -28,11 +28,15 @@ namespace CustomMap
         public void Reset(bool force = true)
         {
             if (m_inited && !force) return;
+
             m_inited = true;
 
             map = FindObjectOfType<Map>();
-            _InitMap();
-            tiles = new List<CustomTileData>();
+            if (force)
+            {
+                _InitMap();
+                tiles = new List<CustomTileData>();
+            }
 
             tileSelected = null;
 

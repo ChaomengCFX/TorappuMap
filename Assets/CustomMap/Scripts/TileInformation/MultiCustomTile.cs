@@ -8,6 +8,7 @@ using UnityEngine;
 using Torappu;
 using Torappu.Battle;
 using Sirenix.OdinInspector;
+using System.Linq;
 
 namespace CustomMap.TileInformation
 {
@@ -15,6 +16,8 @@ namespace CustomMap.TileInformation
     public class MultiCustomTile : CustomTile
     {
         public Dictionary<string, TileDataPair> dataPairs = new Dictionary<string, TileDataPair>();
+        public bool random = false;
+        [ShowIf("@!random")]
         public string defaultKey;
         public string description;
         public Texture2D icon;
@@ -31,7 +34,16 @@ namespace CustomMap.TileInformation
             public MultiCustomTileInfo(MultiCustomTile tile)
             {
                 m_tile = tile;
-                TileData _data = m_tile.dataPairs[m_tile.defaultKey].tile._data;
+                if (tile.random)
+                {
+                    string[] keys = tile.dataPairs.Keys.ToArray();
+                    m_selectedKey = keys[UnityEngine.Random.Range(0, keys.Length)];
+                }
+                else
+                {
+                    m_selectedKey = tile.defaultKey;
+                }
+                TileData _data = m_tile.dataPairs[m_selectedKey].tile._data;
                 TileData = new TileData
                 {
                     tileKey = _data.tileKey,
@@ -42,7 +54,6 @@ namespace CustomMap.TileInformation
                     blackboard = _data.blackboard.Count > 0 ? _data.blackboard : null,
                     effects = _data.effects.Length > 0 ? _data.effects : null
                 };
-                m_selectedKey = tile.defaultKey;
             }
 
             // 需要序列化的字段

@@ -1,0 +1,403 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1827747032714338}
+  m_IsPrefabParent: 1
+--- !u!1 &1078623997765354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4830460350868840}
+  - component: {fileID: 33310496569004868}
+  - component: {fileID: 23114544744415480}
+  - component: {fileID: 114033987162091770}
+  m_Layer: 0
+  m_Name: S_playground_gird176
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1581808912771422
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4172891481428310}
+  - component: {fileID: 114846559958047872}
+  - component: {fileID: 61217485283829382}
+  m_Layer: 8
+  m_Name: tile_infection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1666766524864476
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4605704812775448}
+  - component: {fileID: 33097000470804226}
+  - component: {fileID: 23296721708390122}
+  m_Layer: 0
+  m_Name: S_patch97
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1827747032714338
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4841816680655750}
+  - component: {fileID: 114863111598709648}
+  - component: {fileID: 114650269540446512}
+  m_Layer: 0
+  m_Name: "[\u6DF1\u6D77] \u9AD8\u53F0\u52A0\u653B\u51FB"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4172891481428310
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1581808912771422}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4841816680655750}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &4605704812775448
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1666766524864476}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.00042581558}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4830460350868840}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -180, y: -5.7905585e-14, z: -180}
+--- !u!4 &4830460350868840
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1078623997765354}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.38000008}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4605704812775448}
+  m_Father: {fileID: 4841816680655750}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!4 &4841816680655750
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1827747032714338}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4172891481428310}
+  - {fileID: 4830460350868840}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23114544744415480
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1078623997765354}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: a575ffe49165a4c4f9354b715af55922, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23296721708390122
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1666766524864476}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4a0419c8e2c2ffc4590f073673def27c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33097000470804226
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1666766524864476}
+  m_Mesh: {fileID: 4300000, guid: 2dd83dd1a5eecb24ca7f9a9025fd2f32, type: 2}
+--- !u!33 &33310496569004868
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1078623997765354}
+  m_Mesh: {fileID: 4300000, guid: 5db9cd54026301e4aae749f85f9a2ebd, type: 2}
+--- !u!61 &61217485283829382
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1581808912771422}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &114033987162091770
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1078623997765354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b24614bb06b652a7c00c175b2048ca9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tile: {fileID: 0}
+  _gridPos:
+    row: 0
+    col: 0
+  _mapOffset: {x: 0, y: 0}
+--- !u!114 &114650269540446512
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1827747032714338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41324f8bc3533424dae5074f20f23300, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  dataPair: {fileID: 114863111598709648}
+  description: "[\u6DF1\u6D77] \u9AD8\u53F0\u52A0\u653B\u51FB <\u6C34\u6708\u4E0E\u6DF1\u84DD\u4E4B\u6811>"
+  icon: {fileID: 2800000, guid: 754d724c1bd750048852e8cf3d4a05ee, type: 3}
+--- !u!114 &114846559958047872
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1581808912771422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 640a6b35f0042bfa9aab1156cec60916, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tileKey: tile_infection
+  _height: 0.4
+  _locateHeightOffset: 0
+  _forceBoxCollider: 0
+  _graphic: {fileID: 0}
+  _allGraphicList: []
+  _effect: map_promote_01
+  _data:
+    tileKey: tile_infection
+    heightType: 1
+    buildableType: 2
+    passableMask: 2
+    playerSideMask: 0
+    blackboard:
+    - key: damage
+      value: 50
+      valueStr: 
+    - key: atk
+      value: 0.5
+      valueStr: 
+    - key: attack_speed
+      value: 50
+      valueStr: 
+    - key: duration
+      value: 600
+      valueStr: 
+    effects: []
+  _mapLayer: 0
+  _injectEnvDmgFlagToBlackboard: 1
+  _targetOptions:
+    targetSide: 3
+    targetMotion: 1
+    targetCategory: 1
+    enableAdvancedOptions: 1
+    ignoreTargetFree: 1
+    ignoreAllyTargetFree: 1
+    ignoreHealFree: 1
+    ignoreTargetSide: 1
+    excludeSomeAbnormalFlags: 0
+    excludeAbnormalFlag: 0
+    purposeMask: 0
+    professionMask: 0
+    onlyIgnoreSomeOfTargetFreeCase: 0
+    abnormalFlag: 0
+    abnormalCombo: 0
+  _sourceSide: 1
+  _buffs:
+  - attributes:
+      abnormalFlags: 
+      abnormalImmunes: 
+      abnormalAntis: 
+      abnormalCombos: 
+      abnormalComboImmunes: 
+      attributeModifiers:
+      - attributeType: 1
+        formulaItem: 1
+        value: 0
+        loadFromBlackboard: 1
+        fetchBaseValueFromSourceEntity: 0
+      - attributeType: 7
+        formulaItem: 0
+        value: 0
+        loadFromBlackboard: 1
+        fetchBaseValueFromSourceEntity: 0
+    buffKey: tile_infection
+    loadFromDB: 0
+    isDurableBuff: 0
+    isSilenceable: 0
+    isStunnable: 0
+    isFreezable: 0
+    isLevitatable: 0
+    statusResistable: 2
+    templateKey: periodic_damage
+    disableOverride: 0
+    overrideKey: 
+    overrideType: 0
+    maxStackCnt: 1
+    maxValidStackCnt: -1
+    overrideEffectKey: common_acute_infection_buff_01
+    overrideOnEventPriority: 0
+    onEventPriority: 0
+    audioSignal: 
+    lifeTimeType: 1
+    takeSnapshotWhenExtend: 0
+    durationKey: 
+    lifeTime: 0
+    triggerLifeType: 2
+    triggerCnt: 0
+    triggerInterval: 1
+    waitFirstTriggerInterval: 1
+    firstTriggerInterval: -1
+    priority: -1
+    priorityBBKeys: []
+    stripBlackboardParamsWithBuffKey: 0
+    blackboard: []
+  _clearBuffsWhenLeft: 0
+--- !u!114 &114863111598709648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1827747032714338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c4aaa6740168e7439fcd630d2ed5cca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tile: {fileID: 114846559958047872}
+  tileGraphic: {fileID: 1078623997765354}
