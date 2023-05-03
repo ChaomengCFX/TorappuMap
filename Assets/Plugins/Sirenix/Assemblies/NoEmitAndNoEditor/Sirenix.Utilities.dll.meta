@@ -1,18 +1,31 @@
 fileFormatVersion: 2
 guid: 1e0a9643dc0d4b46bf2321f72c4e503e
-timeCreated: 1488828285
-licenseType: Store
 PluginImporter:
-  serializedVersion: 1
+  externalObjects: {}
+  serializedVersion: 2
   iconMap: {}
   executionOrder: {}
   isPreloaded: 0
   isOverridable: 0
   platformData:
-    Android:
+  - first:
+      '': OSXIntel
+    second:
       enabled: 1
       settings: {}
-    Any:
+  - first:
+      '': OSXIntel64
+    second:
+      enabled: 1
+      settings: {}
+  - first:
+      Android: Android
+    second:
+      enabled: 0
+      settings: {}
+  - first:
+      Any: 
+    second:
       enabled: 0
       settings:
         Exclude Android: 0
@@ -37,38 +50,66 @@ PluginImporter:
         Exclude XboxOne: 1
         Exclude iOS: 1
         Exclude tvOS: 1
-    Editor:
+  - first:
+      Editor: Editor
+    second:
       enabled: 0
       settings:
         DefaultValueInitialized: true
-    Linux:
+  - first:
+      Facebook: Win
+    second:
       enabled: 1
       settings: {}
-    Linux64:
+  - first:
+      Facebook: Win64
+    second:
       enabled: 1
       settings: {}
-    LinuxUniversal:
-      enabled: 1
-      settings: {}
-    OSXIntel:
-      enabled: 1
-      settings: {}
-    OSXIntel64:
-      enabled: 1
-      settings: {}
-    OSXUniversal:
-      enabled: 1
-      settings: {}
-    PSM:
+  - first:
+      PSM: PSM
+    second:
       enabled: 0
       settings: {}
-    Win:
+  - first:
+      Standalone: Linux
+    second:
       enabled: 1
-      settings: {}
-    Win64:
+      settings:
+        CPU: 
+  - first:
+      Standalone: Linux64
+    second:
       enabled: 1
-      settings: {}
-    WindowsStoreApps:
+      settings:
+        CPU: 
+  - first:
+      Standalone: LinuxUniversal
+    second:
+      enabled: 1
+      settings:
+        CPU: 
+  - first:
+      Standalone: OSXUniversal
+    second:
+      enabled: 1
+      settings:
+        CPU: 
+  - first:
+      Standalone: Win
+    second:
+      enabled: 1
+      settings:
+        CPU: 
+  - first:
+      Standalone: Win64
+    second:
+      enabled: 1
+      settings:
+        CPU: 
+  - first:
+      Windows Store Apps: WindowsStoreApps
+    second:
       enabled: 0
       settings:
         CPU: AnyCPU
