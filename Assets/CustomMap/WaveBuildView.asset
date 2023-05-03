@@ -79,7 +79,7 @@ MonoBehaviour:
         routeIndex: 2
         blockFragment: 0
         autoPreviewRoute: 1
-        autoDisplayEnemyInfo: 1
+        autoDisplayEnemyInfo: 0
         isUnharmfulAndAlwaysCountAsKilled: 0
         hiddenGroup: 
         randomSpawnGroupKey: 
