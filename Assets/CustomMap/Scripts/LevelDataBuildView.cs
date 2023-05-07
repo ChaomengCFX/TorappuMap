@@ -64,9 +64,13 @@ public class LevelDataBuildView : ScriptableObject, IResetable
             {
                 var info = map[col, row];
                 short index = (short)((height - row - 1) * width + col);
-                Debug.Log(index);
                 mapData.map[row, col] = index;
-                mapData.tiles[index] = info?.TileData;
+                TileData tileData = info.TileData;
+                if (tileData.effects != null && tileData.effects.Length == 0)
+                    tileData.effects = null;
+                if (tileData.blackboard != null && tileData.blackboard.Count == 0)
+                    tileData.blackboard = null;
+                mapData.tiles[index] = tileData;
             }
         }
         levelDataResource.LevelData.mapData = mapData;

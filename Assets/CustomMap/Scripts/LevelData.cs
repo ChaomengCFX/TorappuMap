@@ -8,11 +8,51 @@ namespace CustomMap
     [Serializable]
     public class LevelData
     {
+        public Options options;
+
+        public string levelId;
+
+        public string mapId;
+
+        public string bgmEvent;
+
+        public string environmentSe;
+
+        public MapData mapData;
+
+        public List<GridPosition> tilesDisallowToLocate;
+
+        public LegacyInLevelRuneData[] runes;
+
+        public GlobalBuffData[] globalBuffs;
+
+        public RouteData[] routes;
+
+        public RouteData[] extraRoutes;
+
+        public EnemyData[] enemies;
+
+        public EnemyDataDbReference[] enemyDbRefs;
+
+        public WaveData[] waves;
+
+        public ListDict<string, BranchData> branches;
+
+        public PredefinedData predefines;
+
+        public PredefinedData hardPredefines;
+
+        public string[] excludeCharIdList;
+
+        public int randomSeed;
+
+        public string operaConfig;
+
         public enum Difficulty
         {
-            NONE = 0,
-            NORMAL = 1,
-            FOUR_STAR = 2,
+            NONE,
+            NORMAL,
+            FOUR_STAR,
             EASY = 4,
             ALL = 7
         }
@@ -50,34 +90,6 @@ namespace CustomMap
         [Serializable]
         public class EnemyData
         {
-            [Serializable]
-            public class ESkillData
-            {
-                public string prefabKey;
-
-                public int priority;
-
-                public float cooldown;
-
-                public float initCooldown;
-
-                public int spCost;
-
-                public Blackboard blackboard;
-            }
-
-            [Serializable]
-            public class ESpData
-            {
-                public SpType spType;
-
-                public int maxSp;
-
-                public int initSp;
-
-                public float increment;
-            }
-
             public string name;
 
             public string description;
@@ -105,6 +117,34 @@ namespace CustomMap
             public ESkillData[] skills;
 
             public ESpData spData;
+
+            [Serializable]
+            public class ESkillData
+            {
+                public string prefabKey;
+
+                public int priority;
+
+                public float cooldown;
+
+                public float initCooldown;
+
+                public int spCost;
+
+                public Blackboard blackboard;
+            }
+
+            [Serializable]
+            public class ESpData
+            {
+                public SpType spType;
+
+                public int maxSp;
+
+                public int initSp;
+
+                public float increment;
+            }
         }
 
         [Serializable]
@@ -122,35 +162,26 @@ namespace CustomMap
         [Serializable]
         public class WaveData
         {
+            public float preDelay;
+
+            public float postDelay;
+
+            public float maxTimeWaitingForNextWave;
+
+            public FragmentData[] fragments;
+
+            public string advancedWaveTag;
+
             [Serializable]
             public class FragmentData
             {
+                public float preDelay;
+
+                public ActionData[] actions;
+
                 [Serializable]
                 public class ActionData
                 {
-                    public enum ActionType
-                    {
-                        SPAWN = 0,
-                        PREVIEW_CURSOR = 1,
-                        STORY = 2,
-                        TUTORIAL = 3,
-                        PLAY_BGM = 4,
-                        DISPLAY_ENEMY_INFO = 5,
-                        ACTIVATE_PREDEFINED = 6,
-                        PLAY_OPERA = 7,
-                        TRIGGER_PREDEFINED = 8,
-                        BATTLE_EVENTS = 9,
-                        WITHDRAW_PREDEFINED = 10,
-                        E_NUM = 11
-                    }
-
-                    public enum RandomType
-                    {
-                        ALWAYS = 0,
-                        PER_DAY = 1,
-                        PER_FULLGAME = 2
-                    }
-
                     public ActionType actionType;
 
                     public bool managedByScheduler;
@@ -184,27 +215,38 @@ namespace CustomMap
                     public int weight;
 
                     public bool dontBlockWave;
+
+                    public enum ActionType
+                    {
+                        SPAWN,
+                        PREVIEW_CURSOR,
+                        STORY,
+                        TUTORIAL,
+                        PLAY_BGM,
+                        DISPLAY_ENEMY_INFO,
+                        ACTIVATE_PREDEFINED,
+                        PLAY_OPERA,
+                        TRIGGER_PREDEFINED,
+                        BATTLE_EVENTS,
+                        WITHDRAW_PREDEFINED,
+                        E_NUM
+                    }
+
+                    public enum RandomType
+                    {
+                        ALWAYS,
+                        PER_DAY,
+                        PER_FULLGAME
+                    }
                 }
-
-                public float preDelay;
-
-                public ActionData[] actions;
             }
-
-            public float preDelay;
-
-            public float postDelay;
-
-            public float maxTimeWaitingForNextWave;
-
-            public FragmentData[] fragments;
-
-            public string advancedWaveTag;
         }
 
         [Serializable]
         public class BranchData
         {
+            public PhaseData[] phases;
+
             [Serializable]
             public class PhaseData
             {
@@ -212,8 +254,6 @@ namespace CustomMap
 
                 public WaveData.FragmentData.ActionData[] actions;
             }
-
-            public PhaseData[] phases;
         }
 
         [Serializable]
@@ -230,41 +270,39 @@ namespace CustomMap
             public ProfessionCategory professionMask;
         }
 
-        public Options options;
+        public class PredefinedData
+        {
+            public PredefinedCharacter[] characterInsts;
 
-        public string levelId;
+            public PredefinedCharacter[] tokenInsts;
 
-        public string mapId;
+            public PredefinedCard[] characterCards;
 
-        public string bgmEvent;
+            public PredefinedTokenCard[] tokenCards;
 
-        public string environmentSe;
+            public class PredefinedInst : AdvancedCharacterInst
+            {
+                public bool hidden;
 
-        public MapData mapData;
+                public string alias;
+            }
 
-        public List<GridPosition> tilesDisallowToLocate;
+            public class PredefinedCharacter : PredefinedInst
+            {
+                public GridPosition position;
 
-        public LegacyInLevelRuneData[] runes;
+                public SharedConsts.Direction direction;
+            }
 
-        public GlobalBuffData[] globalBuffs;
+            public class PredefinedCard : PredefinedInst
+            {
+            }
 
-        public RouteData[] routes;
-
-        public RouteData[] extraRoutes;
-
-        public EnemyData[] enemies;
-
-        public EnemyDataDbReference[] enemyDbRefs;
-
-        public WaveData[] waves;
-
-        public ListDict<string, BranchData> branches;
-
-        public string[] excludeCharIdList;
-
-        public int randomSeed;
-
-        public string operaConfig;
+            public class PredefinedTokenCard : PredefinedCard
+            {
+                public int initialCnt;
+            }
+        }
     }
 }
 #endif
